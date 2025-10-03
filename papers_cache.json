@@ -4,10 +4,35 @@
       "title": "Anticonvulsive profile of two GABA",
       "first_seen": "2025-10-03T13:33:39.362475",
       "usage_count": 1
+    },
+    "40467961": {
+      "title": "Chronic Organic Magnesium Supplementation Enhances Tissue-Specific Bioavailability and Functional Capacity in Rats: A Focus on Brain, Muscle, and Vascular Health.",
+      "first_seen": "2025-10-03T15:32:23.215211",
+      "usage_count": 1
+    },
+    "38481468": {
+      "title": "Safety of magnesium l-threonate as a novel food pursuant to regulation (EU) 2015/2283 and bioavailability of magnesium from this source in the context of Directive 2002/46/EC.",
+      "first_seen": "2025-10-03T15:32:23.215219",
+      "usage_count": 1
+    },
+    "40642284": {
+      "title": "Safety of magnesium orotate dihydrate as a novel food pursuant to Regulation (EU) 2015/2283 and bioavailability of magnesium from this source in the context of Directive 2002/46/EC.",
+      "first_seen": "2025-10-03T15:32:23.215222",
+      "usage_count": 1
+    },
+    "39252819": {
+      "title": "Magnesium-L-threonate improves sleep quality and daytime functioning in adults with self-reported sleep problems: A randomized controlled trial.",
+      "first_seen": "2025-10-03T15:32:23.215223",
+      "usage_count": 1
+    },
+    "39770988": {
+      "title": "Comparative Clinical Study on Magnesium Absorption and Side Effects After Oral Intake of Microencapsulated Magnesium (MAGSHAPE",
+      "first_seen": "2025-10-03T15:32:23.215224",
+      "usage_count": 1
     }
   },
   "stats": {
-    "total_papers": 1,
-    "total_queries": 1
+    "total_papers": 6,
+    "total_queries": 2
   }
 }
