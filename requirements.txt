@@ -1,4 +1,5 @@
-sec-edgar-downloader
+pymed
+biopython
 unstructured[pdf,html]
 langchain
 langgraph
@@ -13,3 +14,4 @@ tavily-python
 python-dotenv
 pandas
 tqdm
+requests

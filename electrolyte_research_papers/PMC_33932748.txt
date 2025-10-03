@@ -1,0 +1,13 @@
+Title: Anticonvulsive profile of two GABA
+
+PubMed ID: 33932748
+
+Authors: Nicole Pagès, Pierre Maurois, Pierre Bac, Sergio Meza-Toledo, Javier Peralta-Cruz, Germán Chamorro-Cevallos, José Melesio Cristóbal-Luna, Joseph Vamecq
+
+Publication Date: 2021-05-02
+
+Abstract:
+DL-3-hydroxy-3-phenylpentanamide (HEPP) and DL-3-hydroxy-3-(4'chlorophenyl)-pentanamide (Cl-HEPP) are phenyl-alcohol-amides that are metabotropic GABAB receptor (MGBR) antagonists and protective against absence seizures. This study aims to further characterize the anticonvulsant profile of these drugs.
+HEPP and Cl-HEPP were evaluated in various standardized acute seizure and toxic tests in female Swiss-OF1 mice.
+Toxicities of HEPP and Cl-HEPP were limited; doses up to 30 mg/kg did not result in hypothermia, reduced spontaneous locomotor activity, or failure of the rotarod test, with doses >15 mg/kg potentiating pentobarbital-induced sleep. In maximal electroshock-induced seizures, 20 mg/kg Cl-HEPP protected 100 % of mice; lower doses shortened post-ictal recovery. Seizure protection occurred against subcutaneous pentylenetetrazole and picrotoxin, being limited against N-methyl-d-aspartate. In bicuculline test, clonic or fatal tonic seizures were decreased, onset delayed, and recovery improved; ED
+HEPP and, to a greater extent, Cl-HEPP provide anti-seizure protections in several acute seizure tests in mice at nontoxic doses. These results are consistent with the action of these drugs on diverse molecular targets directly resulting from their MGBR antagonistic properties. However, other mechanisms might occur possibly for the protection given in the MES test. Finally, a similarity in the modulation of MDDAS components between the two phenyl alcohol amides and ethosuximide could also be based on the MGBR antagonistic properties of the former, given the recently re-evaluated therapeutic relevant targets of the latter.

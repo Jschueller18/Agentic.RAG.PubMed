@@ -1,0 +1,10 @@
+Title: Formulation optimization of ritonavir tablets containing spray dried dispersion from HPMCAS-L or PVP-VA and comparative dissolution/permeation performance.
+
+PubMed ID: 41015097
+
+Authors: Ayse Nur Oktay, James E Polli
+
+Publication Date: 2025-09-28
+
+Abstract:
+Tablets are the most preferred oral dosage form due to advantages such as high-speed manufacturing, cost-effectiveness, stability, and patient compliance. Amorphous solid dispersions (ASDs) can enhance the solubility and bioavailability of poorly soluble drugs, but a strategic approach to convert ASD powders into tablets is lacking. This study aimed to optimize formulation and process for tablets containing ritonavir-HPMCAS-L ASD powders and compare its dissolution/permeation performance to tablets employing PVP-VA. Microcrystalline cellulose(MCC) and dibasic calcium phosphate(DCP) were evaluated as fillers, while croscarmellose sodium(CCS), crospovidone(CP) and sodium starch glycolate(SSG) served as disintegrants. Optimization considered two SDD powder levels, two disintegrant levels, and two spray-drying inlet temperatures (70 and 140 °C). Further process optimization tested various compaction forces via direct compression and dry granulation. Tablet optimization of ritonavir using HPMCAS-L identified the following optimum parameters, including favorable in vitro dissolution: dry granulation (14kN pre- compression +7 kN compression), 65.5 % SDD intermediate, 10 % CCS as a disintegrant, 24 % MCC as a filler and 0.5 % magnesium stearate as lubricant. Applying these parameters to ritonavir ASD tablets fabricated with PVP-VA, SoluPlus, HPMCAS-L and HPMCAS-L:H resulted in HPMCAS-L also exhibiting favorable in vitro dissolution, like PVPV-VA. When subjected to dissolution/permeation evaluation, tablets with PVP-VA exhibited higher ritonavir permeation than those from HPMCAS-L. Tablets with PVP-VA showed ritonavir permeation like from Norvir tablets, and solution from Norvir powder. These results may reflect the dissolution-resulting colloid as a critical component to overall drug absorption from ASD, beyond even favorable dissolution.
