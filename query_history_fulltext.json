@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-10-03T15:54:33.332534",
+    "query": "magnesium supplementation dose response sleep randomized controlled trial",
+    "paper_ids": [],
+    "num_papers": 0
+  },
+  {
+    "timestamp": "2025-10-03T15:54:55.426897",
+    "query": "magnesium bioavailability",
+    "paper_ids": [
+      "40955524",
+      "40931546",
+      "41037903",
+      "41033626",
+      "40687283"
+    ],
+    "num_papers": 5
+  }
+]

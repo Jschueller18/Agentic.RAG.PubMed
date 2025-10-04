@@ -1,0 +1,45 @@
+{
+  "papers": {
+    "40955524": {
+      "title": "Comparing the Bioavailability of Two Seawater-Derived Magnesium Preparations.",
+      "pmc_id": null,
+      "has_fulltext": false,
+      "first_seen": "2025-10-03T15:54:55.426515",
+      "usage_count": 1
+    },
+    "40931546": {
+      "title": "Bioavailability of Magnesium and Potassium Salts Used as Potential Substitutes for Sodium Chloride in Human Nutrition - A Review.",
+      "pmc_id": null,
+      "has_fulltext": false,
+      "first_seen": "2025-10-03T15:54:55.426524",
+      "usage_count": 1
+    },
+    "41037903": {
+      "title": "Synchronous removal of heavy metals and ammonia-nitrogen by magnesium ammonium phosphate (MAP)-enhanced microbial induced calcite precipitation (MICP).",
+      "pmc_id": null,
+      "has_fulltext": false,
+      "first_seen": "2025-10-03T15:54:55.426526",
+      "usage_count": 1
+    },
+    "41033626": {
+      "title": "Multi-element amendment reshaped rhizosphere microbiome: A microbially driven Fe/Mn/S synergistic action for Cd immobilization.",
+      "pmc_id": null,
+      "has_fulltext": false,
+      "first_seen": "2025-10-03T15:54:55.426527",
+      "usage_count": 1
+    },
+    "40687283": {
+      "title": "Protective effects of curcumin/magnesium oxide nanoparticles on ketamine-induced neurotoxicity in the mouse hippocampus.",
+      "pmc_id": "PMC12271846",
+      "has_fulltext": false,
+      "first_seen": "2025-10-03T15:54:55.426529",
+      "usage_count": 1
+    }
+  },
+  "stats": {
+    "total_papers": 5,
+    "total_queries": 2,
+    "fulltext_papers": 0,
+    "abstract_only_papers": 5
+  }
+}
