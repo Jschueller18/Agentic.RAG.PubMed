@@ -1,3 +1,38 @@
+# Python environment
 venv/
 *.pyc
 __pycache__/
+*.egg-info/
+.pytest_cache/
+
+# Downloaded research corpus (regenerate with pmc_bulk_downloader.py)
+# These are 2-3 GB of data - too large for GitHub!
+pmc_open_access_papers/
+electrolyte_research_papers/
+electrolyte_research_papers_fulltext/
+
+# Cache and temporary files
+papers_cache*.json
+query_history*.json
+*.log
+download_log.txt
+progress.json
+
+# Test data
+test_papers/
+test_*.csv
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
