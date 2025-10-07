@@ -6,10 +6,18 @@ __pycache__/
 .pytest_cache/
 
 # Downloaded research corpus (regenerate with pmc_bulk_downloader.py)
-# These are 2-3 GB of data - too large for GitHub!
+# These are 5-6 GB of data - too large for GitHub!
 pmc_open_access_papers/
 electrolyte_research_papers/
 electrolyte_research_papers_fulltext/
+
+# Processed corpus (regenerate with process_pmc_corpus.py)
+# 734 MB of JSON chunks - too large for GitHub!
+processed_corpus/
+
+# Vector database (regenerate with build_vector_store.py)
+# 1.1 GB Qdrant database - too large for GitHub!
+bestmove_vector_db/
 
 # Cache and temporary files
 papers_cache*.json
