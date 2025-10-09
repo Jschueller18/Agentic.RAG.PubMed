@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-10-07",
+  "research_citations": [],
+  "magnesium": {
+    "base_dose": 300,
+    "age_multipliers": {
+      "18-30": 1.0,
+      "31-50": 1.1,
+      "51-70": 1.2,
+      "70+": 1.25
+    },
+    "sex_multipliers": {
+      "male": 1.0,
+      "female": 1.15
+    },
+    "weight_factor": 1.5,
+    "sleep_issue_adjustments": {
+      "trouble_falling_asleep": 100,
+      "frequent_waking": 75,
+      "early_waking": 50,
+      "restless_sleep": 75,
+      "none": 0
+    },
+    "current_intake_gap_multiplier": 0.7,
+    "max_dose": 500,
+    "form": "glycinate"
+  },
+  "calcium": {
+    "base_dose": 210,
+    "age_multipliers": {
+      "18-30": 1.0,
+      "31-50": 1.1,
+      "51-70": 1.3,
+      "70+": 1.4
+    },
+    "sex_multipliers": {
+      "male": 1.0,
+      "female": 1.2
+    },
+    "mg_ratio_target": 0.5,
+    "current_intake_gap_multiplier": 0.3,
+    "max_dose": 400,
+    "form": "citrate"
+  },
+  "potassium": {
+    "base_dose": 200,
+    "age_multipliers": {
+      "18-30": 1.0,
+      "31-50": 1.0,
+      "51-70": 1.1,
+      "70+": 1.15
+    },
+    "sex_multipliers": {
+      "male": 1.1,
+      "female": 1.0
+    },
+    "sleep_quality_boost": 50,
+    "current_intake_gap_multiplier": 0.4,
+    "max_dose": 300,
+    "form": "citrate"
+  },
+  "sodium": {
+    "base_dose": 170,
+    "age_multipliers": {
+      "18-30": 1.0,
+      "31-50": 0.9,
+      "51-70": 0.8,
+      "70+": 0.7
+    },
+    "sex_multipliers": {
+      "male": 1.0,
+      "female": 0.9
+    },
+    "activity_adjustment": 0.5,
+    "max_dose": 200,
+    "form": "citrate"
+  },
+  "interactions": {
+    "mg_ca_ratio_optimal": 2.0,
+    "k_na_ratio_optimal": 2.5
+  },
+  "medication_adjustments": {
+    "diuretics": {
+      "magnesium": 1.2,
+      "potassium": 1.3
+    },
+    "blood_pressure_meds": {
+      "sodium": 0.7
+    },
+    "thyroid_meds": {
+      "calcium": 0.8
+    }
+  }
+}
