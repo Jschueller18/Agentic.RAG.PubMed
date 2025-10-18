@@ -25,9 +25,9 @@ class ReasoningReflector:
     """
     
     def __init__(self):
-        """Initialize Claude Sonnet 4.5 for reflection"""
+        """Initialize Claude Haiku for reflection"""
         self.llm = ChatAnthropic(
-            model="claude-3-5-sonnet-20241022",
+            model="claude-3-haiku-20240307",
             temperature=0.3,  # Slightly higher for more natural explanation
             max_tokens=4096,  # Longer for detailed reflection
             api_key=os.environ.get("ANTHROPIC_API_KEY")
@@ -55,7 +55,7 @@ class ReasoningReflector:
             Dict with thought_process, confidence, gaps, and reasoning
         """
         
-        print("\n🧠 REASONING REFLECTION (Claude Sonnet 4.5)")
+        print("\n🧠 REASONING REFLECTION (Claude Haiku)")
         print("-" * 80)
         
         # Build comprehensive context
@@ -84,14 +84,23 @@ Format: CONFIDENCE SCORE: [number]
 ### KEY REASONING (2-3 sentences max)
 Summarize why this recommendation was made.
 
-### KNOWLEDGE GAPS (max 5 items)
-List SPECIFIC research gaps as targeted PubMed queries. Format each as a precise search query.
+### KNOWLEDGE GAPS - SEMANTIC (max 5 items)
+List SPECIFIC knowledge gaps for semantic vector database search. These should be detailed and precise.
 Example: "magnesium glycinate 300-400mg sleep onset latency RCT women age 25-35"
 
 Use this format:
-GAP 1: [specific pubmed search query]
-GAP 2: [specific pubmed search query]
-GAP 3: [specific pubmed search query]
+SEMANTIC_GAP 1: [specific detailed query]
+SEMANTIC_GAP 2: [specific detailed query]
+SEMANTIC_GAP 3: [specific detailed query]
+
+### KNOWLEDGE GAPS - PMC (max 5 items)
+List BROADER research concepts for external PubMed Central search. Focus on core research questions without specific dosages or brand names.
+Example: "magnesium supplementation AND sleep latency AND women AND randomized controlled trial"
+
+Use this format:
+PMC_GAP 1: [broad research concept]
+PMC_GAP 2: [broad research concept]
+PMC_GAP 3: [broad research concept]
 
 ### ADJUSTMENT SUMMARY (if any)
 One sentence per adjustment explaining what changed and why.
@@ -193,7 +202,8 @@ Be concise and actionable. Focus on what research would directly improve this sp
         sections = {
             "key_reasoning": "",
             "confidence_score": 0,
-            "knowledge_gap_queries": [],
+            "knowledge_gap_queries": [],  # Semantic queries (specific)
+            "pmc_search_queries": [],      # PMC queries (broad)
             "adjustment_summary": ""
         }
 
@@ -211,22 +221,40 @@ Be concise and actionable. Focus on what research would directly improve this sp
         if reasoning_match:
             sections['key_reasoning'] = reasoning_match.group(1).strip()
 
-        # Extract knowledge gap queries (look for GAP patterns)
-        gap_queries = []
-        gap_pattern = re.compile(r'GAP\s+\d+:\s*(.+)', re.IGNORECASE)
-        for match in gap_pattern.finditer(reflection_text):
+        # Extract SEMANTIC knowledge gap queries
+        semantic_queries = []
+        semantic_pattern = re.compile(r'SEMANTIC_GAP\s+\d+:\s*(.+)', re.IGNORECASE)
+        for match in semantic_pattern.finditer(reflection_text):
             query = match.group(1).strip()
             if query and len(query) > 10:  # Valid query
-                gap_queries.append(query)
+                semantic_queries.append(query)
 
-        if gap_queries:
-            sections['knowledge_gap_queries'] = gap_queries
-        else:
-            # If no GAP patterns found, look for research suggestions
-            research_pattern = re.compile(r'(?:research|study|evidence|clinical trial|RCT)[^.\n]*', re.IGNORECASE)
-            research_matches = research_pattern.findall(reflection_text)
-            if research_matches:
-                sections['knowledge_gap_queries'] = research_matches[:3]  # Take first 3
+        if semantic_queries:
+            sections['knowledge_gap_queries'] = semantic_queries
+
+        # Extract PMC knowledge gap queries
+        pmc_queries = []
+        pmc_pattern = re.compile(r'PMC_GAP\s+\d+:\s*(.+)', re.IGNORECASE)
+        for match in pmc_pattern.finditer(reflection_text):
+            query = match.group(1).strip()
+            if query and len(query) > 10:  # Valid query
+                pmc_queries.append(query)
+
+        if pmc_queries:
+            sections['pmc_search_queries'] = pmc_queries
+
+        # Fallback: Look for old GAP format for backwards compatibility
+        if not semantic_queries and not pmc_queries:
+            gap_queries = []
+            gap_pattern = re.compile(r'GAP\s+\d+:\s*(.+)', re.IGNORECASE)
+            for match in gap_pattern.finditer(reflection_text):
+                query = match.group(1).strip()
+                if query and len(query) > 10:  # Valid query
+                    gap_queries.append(query)
+
+            if gap_queries:
+                sections['knowledge_gap_queries'] = gap_queries
+                sections['pmc_search_queries'] = gap_queries  # Use same for both as fallback
 
         # Extract adjustment summary
         adjustment_pattern = re.compile(r'ADJUSTMENT SUMMARY[:\s]*(.+?)(?=\n\n|\n[A-Z]|$)', re.DOTALL | re.IGNORECASE)
@@ -286,11 +314,20 @@ Be concise and actionable. Focus on what research would directly improve this sp
         reasoning = reflection.get('key_reasoning', 'No reasoning provided')
         print(reasoning)
         
-        print("\n🔍 KNOWLEDGE GAP QUERIES (for targeted download):")
+        print("\n🔍 KNOWLEDGE GAPS - SEMANTIC (for vector database):")
         print("-" * 80)
-        queries = reflection.get('knowledge_gap_queries', [])
-        if queries:
-            for i, query in enumerate(queries, 1):
+        semantic_queries = reflection.get('knowledge_gap_queries', [])
+        if semantic_queries:
+            for i, query in enumerate(semantic_queries, 1):
+                print(f"  {i}. {query}")
+        else:
+            print("  • None - research coverage is complete")
+        
+        print("\n🌐 KNOWLEDGE GAPS - PMC (for external search):")
+        print("-" * 80)
+        pmc_queries = reflection.get('pmc_search_queries', [])
+        if pmc_queries:
+            for i, query in enumerate(pmc_queries, 1):
                 print(f"  {i}. {query}")
         else:
             print("  • None - research coverage is complete")

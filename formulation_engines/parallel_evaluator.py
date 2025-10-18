@@ -37,7 +37,7 @@ class ParallelEvaluator:
         
         # Claude for reasoning
         self.llm = ChatAnthropic(
-            model="claude-3-5-sonnet-20241022",
+            model="claude-3-haiku-20240307",
             temperature=0,
             max_tokens=2048,
             api_key=os.environ.get("ANTHROPIC_API_KEY")

@@ -22,6 +22,7 @@ from sleep_support_engine import SleepSupportEngine
 from parallel_evaluator import ParallelEvaluator
 from reasoning_reflector import ReasoningReflector
 from targeted_research_downloader import TargetedResearchDownloader
+from pmc_query_optimizer import PMCQueryOptimizer
 
 
 class ImprovementLoop:
@@ -56,7 +57,7 @@ class ImprovementLoop:
         self.evaluator = ParallelEvaluator(qdrant_client=self.qdrant_client)
 
         # Load reasoning reflector
-        print("📋 Loading reasoning reflector (Claude Sonnet 4.5)...")
+        print("📋 Loading reasoning reflector (Claude Haiku)...")
         self.reflector = ReasoningReflector()
         
         # Track improvements
@@ -319,39 +320,66 @@ class ImprovementLoop:
     
     def _offer_knowledge_gap_filling(self):
         """Collect all knowledge gap queries and automatically download research"""
-        # Collect all unique gap queries
-        all_gap_queries = []
+        # Collect semantic and PMC queries separately
+        all_semantic_queries = []
+        all_pmc_queries = []
+        
         for history in self.iteration_history:
             reflection = history.get("reflection", {})
-            queries = reflection.get("knowledge_gap_queries", [])
-            all_gap_queries.extend(queries)
+            
+            # Semantic queries (specific, for vector database)
+            semantic_queries = reflection.get("knowledge_gap_queries", [])
+            all_semantic_queries.extend(semantic_queries)
+            
+            # PMC queries (broad, for external search)
+            pmc_queries = reflection.get("pmc_search_queries", [])
+            all_pmc_queries.extend(pmc_queries)
 
         # Remove duplicates while preserving order
-        unique_queries = []
-        seen = set()
-        for query in all_gap_queries:
-            if query.lower() not in seen:
-                unique_queries.append(query)
-                seen.add(query.lower())
+        unique_semantic_queries = []
+        seen_semantic = set()
+        for query in all_semantic_queries:
+            if query.lower() not in seen_semantic:
+                unique_semantic_queries.append(query)
+                seen_semantic.add(query.lower())
 
-        if not unique_queries:
+        unique_pmc_queries = []
+        seen_pmc = set()
+        for query in all_pmc_queries:
+            if query.lower() not in seen_pmc:
+                unique_pmc_queries.append(query)
+                seen_pmc.add(query.lower())
+
+        # If we have semantic queries but no PMC queries, optimize them
+        if unique_semantic_queries and not unique_pmc_queries:
+            print("\n🔧 Optimizing semantic queries for PMC search...")
+            optimizer = PMCQueryOptimizer()
+            unique_pmc_queries = optimizer.optimize_batch(unique_semantic_queries)
+
+        if not unique_semantic_queries and not unique_pmc_queries:
             print("\n✅ No knowledge gaps identified - research coverage is complete!")
             return
 
         print("\n" + "="*80)
         print("KNOWLEDGE GAPS IDENTIFIED")
         print("="*80)
-        print(f"\nThe AI identified {len(unique_queries)} research gaps that could improve recommendations:")
-        print()
-
-        for i, query in enumerate(unique_queries, 1):
-            print(f"{i}. {query}")
+        
+        if unique_semantic_queries:
+            print(f"\n🔍 Semantic Queries ({len(unique_semantic_queries)}) - for vector database:")
+            for i, query in enumerate(unique_semantic_queries, 1):
+                print(f"  {i}. {query}")
+        
+        if unique_pmc_queries:
+            print(f"\n🌐 PMC Queries ({len(unique_pmc_queries)}) - for external search:")
+            for i, query in enumerate(unique_pmc_queries, 1):
+                print(f"  {i}. {query}")
 
         print("\n" + "-"*80)
         print("AUTOMATIC RESEARCH DOWNLOAD")
         print("-"*80)
         print("The system will automatically:")
-        print("  • Search PubMed Central for these specific papers")
+        print("  • Search PubMed Central with optimized queries")
+        print("  • Search existing database with specific semantic queries")
         print("  • Download only NEW papers (no duplicates)")
         print("  • Evaluate research quality and relevance")
         print("  • Process and add good research to vector database")
@@ -363,17 +391,21 @@ class ImprovementLoop:
         downloader = TargetedResearchDownloader(qdrant_client=self.qdrant_client)
         evaluator = ResearchQualityEvaluator()
 
-        # Download research
-        download_stats = downloader.fill_knowledge_gaps(unique_queries, max_papers_per_gap=3)
+        # Download research with separate query types
+        download_stats = downloader.fill_knowledge_gaps(
+            semantic_queries=unique_semantic_queries,
+            pmc_queries=unique_pmc_queries,
+            max_papers_per_gap=3
+        )
 
         if download_stats["papers_downloaded"] > 0:
             print(f"\n✅ Downloaded {download_stats['papers_downloaded']} new papers!")
 
             # Evaluate research quality
-            quality_results = evaluator.evaluate_research_quality(unique_queries, download_stats)
+            quality_results = evaluator.evaluate_research_quality(unique_semantic_queries, download_stats)
 
             # Process results
-            self._process_research_evaluation(quality_results, unique_queries)
+            self._process_research_evaluation(quality_results, unique_semantic_queries)
 
         else:
             print("\nℹ️  No new papers found - existing database covers these topics")
@@ -510,7 +542,7 @@ class ResearchQualityEvaluator:
         good_research = {}
         bad_research = {}
 
-        print("\n🔍 Evaluating research quality using Claude Sonnet 4.5...")
+        print("\n🔍 Evaluating research quality using Claude Haiku...")
         print(f"   Found {len(recent_papers)} recent papers to evaluate")
 
         for query in queries:
@@ -528,10 +560,10 @@ class ResearchQualityEvaluator:
 
             try:
                 response = client.messages.create(
-                    model="claude-3-5-sonnet-20241022",
+                    model="claude-3-haiku-20240307",
                     max_tokens=1000,
                     temperature=0.1,
-                    system="You are a research quality evaluator. Be precise and factual.",
+                    system="You are a research quality evaluator using Claude Haiku. Be precise and factual.",
                     messages=[{"role": "user", "content": prompt}]
                 )
 

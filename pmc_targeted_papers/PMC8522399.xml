@@ -1,0 +1,1002 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Pediatr Psychol</journal-id><journal-id journal-id-type="iso-abbrev">J Pediatr Psychol</journal-id><journal-id journal-id-type="pmc-domain-id">754</journal-id><journal-id journal-id-type="pmc-domain">jpepsy</journal-id><journal-id journal-id-type="publisher-id">jpepsy</journal-id><journal-title-group><journal-title>Journal of Pediatric Psychology</journal-title></journal-title-group><issn pub-type="ppub">0146-8693</issn><issn pub-type="epub">1465-735X</issn><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC8522399</article-id><article-id pub-id-type="pmcid-ver">PMC8522399.2</article-id><article-id pub-id-type="pmcaid">8522399</article-id><article-id pub-id-type="pmcaiid">8527866</article-id><article-id pub-id-type="pmid">34472600</article-id><article-id pub-id-type="doi">10.1093/jpepsy/jsab075</article-id><article-id pub-id-type="publisher-id">jsab075</article-id><article-version article-version-type="pmc-version">2</article-version><article-categories><subj-group subj-group-type="heading"><subject>COVID-19 Articles</subject></subj-group><subj-group subj-group-type="category-taxonomy-collection"><subject>AcademicSubjects/MED00810</subject><subject>AcademicSubjects/SCI02112</subject></subj-group></article-categories><title-group><article-title>Children&#8217;s Sleep During COVID-19: How Sleep Influences
+Surviving and Thriving in Families</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7097-5706</contrib-id><name name-style="western"><surname>MacKenzie</surname><given-names initials="NE">Nicole E</given-names></name><degrees>MEd</degrees><xref rid="jsab075-aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Keys</surname><given-names initials="E">Elizabeth</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hall</surname><given-names initials="WA">Wendy A</given-names></name><degrees>RN, PhD</degrees><xref rid="jsab075-aff2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Gruber</surname><given-names initials="R">Reut</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff3" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Smith</surname><given-names initials="IM">Isabel M</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff4" ref-type="aff">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Constantin</surname><given-names initials="E">Evelyn</given-names></name><degrees>MD CM MSc(Epi)</degrees><xref rid="jsab075-aff5" ref-type="aff">5</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Godbout</surname><given-names initials="R">Roger</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff6" ref-type="aff">6</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Stremler</surname><given-names initials="R">Robyn</given-names></name><degrees>RN, PhD</degrees><xref rid="jsab075-aff7" ref-type="aff">7</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Reid</surname><given-names initials="GJ">Graham J</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff8" ref-type="aff">8</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hanlon-Dearman</surname><given-names initials="A">Ana</given-names></name><degrees>MD</degrees><xref rid="jsab075-aff9" ref-type="aff">9</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Brown</surname><given-names initials="CA">Cary A</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff10" ref-type="aff">10</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Shea</surname><given-names initials="S">Sarah</given-names></name><degrees>MD</degrees><xref rid="jsab075-aff11" ref-type="aff">11</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Weiss</surname><given-names initials="SK">Shelly K</given-names></name><degrees>MD</degrees><xref rid="jsab075-aff12" ref-type="aff">12</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ipsiroglu</surname><given-names initials="O">Osman</given-names></name><degrees>MD, PhD</degrees><xref rid="jsab075-aff13" ref-type="aff">13</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Witmans</surname><given-names initials="M">Manisha</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff14" ref-type="aff">14</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Chambers</surname><given-names initials="CT">Christine T</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff4" ref-type="aff">4</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Andreou</surname><given-names initials="P">Pantelis</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff15" ref-type="aff">15</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Begum</surname><given-names initials="E">Esmot</given-names></name><degrees>PhD</degrees><xref rid="jsab075-aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Corkum</surname><given-names initials="P">Penny</given-names></name><degrees>PhD, RPsych</degrees><xref rid="jsab075-cor1" ref-type="corresp"/><xref rid="jsab075-aff1" ref-type="aff">1</xref></contrib></contrib-group><aff id="jsab075-aff1"><label>1</label><institution>Department of Psychology and Neuroscience, Dalhousie
+University</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff2"><label>2</label><institution>School of Nursing, University of British
+Columbia</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff3"><label>3</label><institution>Department of Psychiatry, Faculty of Medicine, and
+Attention Behavior and Sleep Lab, Douglas Mental Health University Institute,
+McGill University</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff4"><label>4</label><institution>Departments of Psychology &amp; Neuroscience and
+Pediatrics, Dalhousie University</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff5"><label>5</label><institution>Department of Pediatrics, Montreal
+Children&#8217;s Hospital, McGill University Health Centre</institution>,
+<country country="CA">Canada</country></aff><aff id="jsab075-aff6"><label>6</label><institution>Sleep Laboratory &amp; Clinic, Department of
+Psychiatry, Universit&#233; de Montr&#233;al</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff7"><label>7</label><institution>Lawrence S. Bloomberg Faculty of Nursing, University
+of Toronto</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff8"><label>8</label><institution>Departments of Psychology, Family Medicine &amp;
+Paediatrics, The University of Western Ontario</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff9"><label>9</label><institution>Faculty of Health Sciences, University of
+Manitoba</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff10"><label>10</label><institution>Faculty of Rehabilitation Medicine, University of
+Alberta</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff11"><label>11</label><institution>Department of Pediatrics, Dalhousie University, IWK
+Health Centre</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff12"><label>12</label><institution>Division of Neurology, Department of Pediatrics,
+Hospital for Sick Children, University of Toronto</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff13"><label>13</label><institution>Faculty of Medicine, University of British
+Columbia</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff14"><label>14</label><institution>Faculty of Medicine &amp; Dentistry, University
+of Alberta</institution>, <country country="CA">Canada</country></aff><aff id="jsab075-aff15"><label>15</label><institution>Department of Community Health and Epidemiology,
+Faculty of Medicine, Dalhousie University</institution>, <country country="CA">Canada</country></aff><author-notes><corresp id="jsab075-cor1">All correspondence concerning this article should be
+addressed to Penny Corkum, PhD, Department of Psychology and Neuroscience,
+Dalhousie University, 1355 Oxford St., PO Box 15000, Halifax, NS B3H 4R2,
+Canada. E-mail: <email>penny.corkum@dal.ca</email></corresp></author-notes><pub-date pub-type="collection"><month>10</month><year>2021</year></pub-date><pub-date pub-type="epub" iso-8601-date="2021-09-02"><day>02</day><month>9</month><year>2021</year></pub-date><volume>46</volume><issue>9</issue><issue-id pub-id-type="pmc-issue-id">390850</issue-id><fpage>1051</fpage><lpage>1062</lpage><history><date date-type="received"><day>15</day><month>2</month><year>2021</year></date><date date-type="rev-recd"><day>10</day><month>5</month><year>2021</year></date><date date-type="accepted"><day>09</day><month>6</month><year>2021</year></date><date date-type="corrected-typeset"><day>23</day><month>9</month><year>2021</year></date></history><pub-history><event event-type="pmc-release"><date><day>02</day><month>09</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>20</day><month>10</month><year>2021</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-04-03 02:25:40.640"><day>03</day><month>04</month><year>2024</year></date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">8522399</article-id><article-id pub-id-type="doi">10.1093/jpepsy/jsab075</article-id><article-version>1</article-version><pub-date><day>02</day><month>09</month><year>2021</year></pub-date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">8527866</article-id><article-id pub-id-type="doi">10.1093/jpepsy/jsab075</article-id><article-version>2</article-version><pub-date><day>02</day><month>09</month><year>2021</year></pub-date></event></pub-history><permissions><copyright-statement>&#169; The Author(s) 2021. Published by Oxford University
+Press on behalf of the Society of Pediatric Psychology. All rights reserved. For
+permissions, please e-mail: journals.permissions@oup.com</copyright-statement><copyright-year>2021</copyright-year><license><ali:license_ref>https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</ali:license_ref><license-p>This article is published and distributed under the terms of the
+Oxford University Press, Standard Journals Publication Model (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model">https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model</ext-link>)</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="jsab075.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jsab075.pdf"/><abstract><title>Abstract</title><sec id="s1"><title>Objective</title><p>The COVID-19 pandemic has the potential to disrupt the lives of families and
+may have implications for children with existing sleep problems. As such, we
+aimed to: (1) characterize sleep changes during the COVID-19 pandemic in
+children who had previously been identified as having sleep problems, (2)
+identify factors contributing to sleep changes due to COVID-19 safety
+measures, and (3) understand parents&#8217; and children&#8217;s needs
+to support sleep during the pandemic.</p></sec><sec id="s2"><title>Methods</title><p>Eighty-five Canadian parents with children aged 4&#8211;14&#8201;years
+participated in this explanatory sequential, mixed-methods study using an
+online survey of children&#8217;s and parents&#8217; sleep, with a
+subset of 16 parents, selected based on changes in their children&#8217;s
+sleep, participating in semi-structured interviews. Families had previously
+participated in the <italic toggle="yes">Better Nights, Better Days</italic> (BNBD)
+randomized controlled trial.</p></sec><sec id="s3"><title>Results</title><p>While some parents perceived their child&#8217;s sleep quality improved
+during the COVID-19 pandemic (14.1%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>12), many
+parents perceived their child&#8217;s sleep had worsened (40.0%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>34).
+Parents attributed children&#8217;s worsened sleep to increased screen
+time, anxiety, and decreased exercise. Findings from semi-structured
+interviews highlighted the effect of disrupted routines on sleep and stress,
+and that stress reciprocally influenced children&#8217;s and
+parents&#8217; sleep.</p></sec><sec id="s4"><title>Conclusions</title><p>The sleep of many Canadian children was affected by the first wave of the
+COVID-19 pandemic, with the disruption of routines influencing
+children&#8217;s sleep. eHealth interventions, such as BNBD with
+modifications that address the COVID-19 context, could help families address
+these challenges. </p></sec></abstract><kwd-group><kwd>children</kwd><kwd>COVID-19</kwd><kwd>eHealth</kwd><kwd>mental health</kwd><kwd>parents</kwd><kwd>sleep</kwd></kwd-group><funding-group><award-group award-type="grant"><funding-source><institution-wrap><institution>Canadian Institutes of Health Research</institution><institution-id institution-id-type="DOI">10.13039/501100000024</institution-id></institution-wrap></funding-source></award-group><award-group award-type="grant"><funding-source><institution-wrap><institution>Sleep and Circadian Rhythms Team Grant</institution></institution-wrap></funding-source><award-id>FRN-TGS 109221</award-id></award-group><award-group award-type="grant"><funding-source><institution-wrap><institution>CIHR postdoctoral fellowship</institution></institution-wrap></funding-source><award-id>FRN-CSR 164784</award-id></award-group><award-group award-type="grant"><funding-source><institution-wrap><institution>Maritime SPOR Support Unit</institution></institution-wrap></funding-source></award-group><award-group award-type="grant"><funding-source><institution-wrap><institution>Research Nova Scotia</institution><institution-id institution-id-type="DOI">10.13039/501100020170</institution-id></institution-wrap></funding-source></award-group><award-group award-type="grant"><funding-source><institution-wrap><institution>Killam Trust</institution></institution-wrap></funding-source></award-group><award-group award-type="grant"><funding-source><institution-wrap><institution>Nova Scotia Graduate Scholarship</institution></institution-wrap></funding-source></award-group></funding-group><counts><page-count count="12"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>Significant changes to daily life and routines have been brought on by the COVID-19
+pandemic, which has been shown to have mixed outcomes for both children and parents
+alike. Protective measures during the pandemic (e.g., confinement at home, schooling
+at home, reduced socializing, limited access to community-based activities) have
+given rise to increased physical and mental-health concerns in families (<xref rid="jsab075-B46" ref-type="bibr">Wang et al., 2020</xref>). Sleep disturbances,
+such as insomnia (e.g., difficulties falling asleep, maintaining sleep, and/or
+waking too early; <xref rid="jsab075-B2" ref-type="bibr">American Academy of Sleep
+Medicine, 2014</xref>), were highly prevalent in children before the COVID-19
+pandemic, with as many as one in four children experiencing symptoms (<xref rid="jsab075-B30" ref-type="bibr">Mindell et al., 2006</xref>; <xref rid="jsab075-B48" ref-type="bibr">Williamson et al., 2019</xref>). Given that
+many children have experienced disruptions in routines and heightened anxiety during
+the COVID-19 pandemic (<xref rid="jsab075-B16" ref-type="bibr">Duan et al.,
+2020</xref>; <xref rid="jsab075-B27" ref-type="bibr">Marques de Miranda et al.,
+2020</xref>), it is likely that sleep has been impacted during the COVID-19
+pandemic. </p><p>Confinement at home during the COVID-19 pandemic has been linked to both positive and
+negative changes in children&#8217;s sleep, specifically in terms of shifting
+sleep and wake times, increased nightmares, or increased sleep duration (<xref rid="jsab075-B26" ref-type="bibr">Liu et al., 2020</xref>; <xref rid="jsab075-B31" ref-type="bibr">Moore et al., 2020</xref>). While delayed onset of sleep and
+later bedtime, which have worsened during COVID-19, can be considered a sign of
+worsened sleep, in instances where children previously had insufficient hours of
+sleep, this may be considered a positive outcome (<xref rid="jsab075-B26" ref-type="bibr">Liu et al., 2020</xref>). The direction of sleep changes
+(i.e., improved or worsened sleep) may be influenced by screen time, available
+social opportunities, physical activity levels, nutrition and diet, and increased
+flexibility in daily schedules (<xref rid="jsab075-B3" ref-type="bibr">Brooks et
+al., 2020</xref>; <xref rid="jsab075-B31" ref-type="bibr">Moore et al.,
+2020</xref>; <xref rid="jsab075-B46" ref-type="bibr">Wang et al., 2020</xref>).
+While negative impacts on these factors are known to worsen sleep in general, the
+impact may be intensified during the COVID-19 pandemic, as children are particularly
+limited in their opportunities for play and socialization (<xref rid="jsab075-B31" ref-type="bibr">Moore et al., 2020</xref>). New research has demonstrated that
+poor sleep is also associated with reduced social interaction, by way of low mood
+(<xref rid="jsab075-B44" ref-type="bibr">Wakefield et al., 2020</xref>).</p><p>Similarly, there is mixed evidence on how the pandemic has affected parental sleep,
+with some research supporting an increase in sleep quality and quantity (<xref rid="jsab075-B37" ref-type="bibr">Robillard et al., 2020</xref>; <xref rid="jsab075-B40" ref-type="bibr">Staller &amp; Randler, 2020</xref>) and
+other research demonstrating that parental sleep quality has significantly worsened
+(<xref rid="jsab075-B1" ref-type="bibr">Altena et al., 2020</xref>; <xref rid="jsab075-B6" ref-type="bibr">Cellini et al., 2020</xref>; <xref rid="jsab075-B25" ref-type="bibr">L&#233;ger et al., 2020</xref>), likely due
+to challenges regarding employment, childcare, and at-home learning for their
+children (<xref rid="jsab075-B15" ref-type="bibr">Dozois, 2020</xref>; <xref rid="jsab075-B49" ref-type="bibr">Witt et al., 2020</xref>).</p><p>In addition to parent-specific challenges, sleep quality in parents and children
+demonstrates bidirectional associations, such that parents&#8217; poor sleep and
+stress affect the child, and vice versa (<xref rid="jsab075-B34" ref-type="bibr">Orgil&#233;s et al., 2020</xref>; <xref rid="jsab075-B36" ref-type="bibr">Prime et al., 2020</xref>; <xref rid="jsab075-B41" ref-type="bibr">Varma et
+al., 2020</xref>). This can be exacerbated by inconsistent routines and
+lifestyle changes due to the COVID-19 pandemic through disrupting circadian rhythms
+(<xref rid="jsab075-B32" ref-type="bibr">Morin et al., 2020</xref>). Thus, the
+COVID-19 pandemic is likely affecting the sleep of Canadian children and their
+parents.</p><p>In 2016&#8211;2018, our research team conducted a pan-Canadian randomized
+controlled trial (RCT) of the <italic toggle="yes">Better Nights, Better Days</italic> (BNBD), an
+eHealth behavioral sleep intervention for parents of children aged
+1&#8211;10&#8201;years with insomnia symptoms. This intervention offered
+evidence-based strategies for establishing a bedtime routine, creating a healthy
+sleep environment, stress reduction techniques, learning to fall asleep
+independently (i.e., modified extinction-based strategies), and using a reward
+system. Conducting a mixed-methods follow-up study with this cohort provided an
+opportunity to understand sleep during the first wave of the COVID-19 pandemic in
+children who had well-characterized sleep concerns and a comprehensive assessment of
+relevant psychosocial variables prior to the pandemic (<xref rid="jsab075-B9" ref-type="bibr">Corkum et al., 2018</xref>). An explanatory sequential
+mixed-methods approach was taken, a method by which quantitative data are collected
+and explored in-depth using qualitative data (<xref rid="jsab075-B11" ref-type="bibr">Creswell &amp; Plano Clark, 2017</xref>). In this study,
+we used quantitative data to quantify sleep and sleep changes in children during the
+COVID-19 pandemic, and then used qualitative data to explore how these identified
+factors influenced children&#8217;s sleep from parents&#8217; perspectives. The
+objectives of the current study were to: (1) quantitatively describe sleep in
+children and their parents, including perceived changes (either for the worse or the
+better) in their sleep since the COVID-19 pandemic reached Canada in early 2020; (2)
+quantitatively identify factors that may contribute to changes in children&#8217;s
+sleep; and (3) qualitatively understand children&#8217;s and parents&#8217;
+sleep needs, as well as identify barriers to promoting and maintaining healthy sleep
+in the context of the pandemic. These objectives were examined in the context of the
+BNBD RCT cohort of children who previously met research criteria for insomnia,
+approximately half of whom were randomized to receive treatment for their sleep
+problems through the BNBD eHealth intervention.</p></sec><sec sec-type="methods"><title>Methods</title><p>The current study used an explanatory sequential mixed methods design. The
+quantitative component was an online cross-sectional survey. The qualitative
+component used thematic analysis of semi-structured interviews to further explore
+quantitative findings. Reporting followed the STROBE guidelines (<xref rid="jsab075-B43" ref-type="bibr">von Elm et al., 2007</xref>; see <xref rid="sup1" ref-type="supplementary-material">Supplemental Materials</xref>). </p><sec><title>Participants</title><p>This study included parents of children, now aged 4&#8211;14&#8201;years, who
+previously met research criteria for insomnia and participated in the BNBD
+pan-Canadian RCT 3.5&#8201;years prior (<xref rid="jsab075-B9" ref-type="bibr">Corkum et al., 2018</xref>). All parents who consented to participate in
+the BNBD RCT and consented to be contacted for future research
+(<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>524) were
+eligible to participate. Research Ethics Board approval was obtained from the
+IWK Health Centre (REB #1025791). All 85 participants had participated in the
+previous BNBD RCT, with 47.1%
+(<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>40) of
+participants having been randomized to the treatment group. The remaining
+participants had been randomized to the control group (i.e., usual care,
+43.5%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>37), or had been
+enrolled but not randomized (9.4%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>8).
+Participants in the usual care group allocation were offered access to BNBD
+following study closure, and 29.7%
+(<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>11) accessed
+the intervention. A total of 51 of the 85 participants accessed the
+intervention.</p></sec><sec><title>Procedures</title><p>Participants were invited via email to participate in the online survey over 3
+weeks during June 2020 and provided informed consent online prior to
+participation. The online survey was administered via the Research Electronic
+Data Capture tool (REDCap; <xref rid="jsab075-B21" ref-type="bibr">Harris et
+al., 2019</xref>, <xref rid="jsab075-B22" ref-type="bibr">2009</xref>).
+Participant survey responses were linked with data from the BNBD RCT to access
+demographic information and previous questionnaire data (see Measures section).
+Interested participants were invited for interviews, selected via purposive
+sampling, if they endorsed (a) a change in their children&#8217;s sleep rated
+greater than 65% in magnitude for the better (the mean &#8220;sleep
+change&#8221; value), (b) a change in their children&#8217;s sleep rated
+greater than 65% in magnitude for the worse, or (c) no change in their
+children&#8217;s sleep. Interviews were conducted by N.E.M. and lasted
+approximately 30&#8201;minutes (range: 24&#8211;43&#8201;min). Interviews
+were audio recorded using the Dalhousie University&#8217;s online learning
+management system, Blackboard&#8217;s Collaborate Ultra (D2L, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.d2l.com/higher-education/" ext-link-type="uri">www.d2l.com/higher-education/</ext-link>), which has voice call
+capabilities, and stored on a secure server. Interviews were transcribed
+verbatim by the interviewer and volunteers, and anonymized. Survey and interview
+participants were entered into respective draws for one $50 gift
+card.</p></sec><sec><title>Measures</title><sec><title>Quantitative Online Survey</title><p>The online survey consisted of 10 brief questionnaires, four of which had
+also been administered during the BNBD RCT study and were repeated in the
+current study (identified with an asterisk below).</p><p><italic toggle="yes">About You and Your Child</italic>: This 9-item investigator-created
+questionnaire was used to collect demographic information (i.e., child age,
+sex, family income, parental education, employment hours, geographic
+location, and child&#8217;s current schooling modality).</p><p><italic toggle="yes">Impact of COVID-19</italic>: This 21-item investigator-created
+questionnaire assessed COVID-19 pandemic-related changes in child and
+parental sleep, the magnitude of these changes, and changes in child and
+parent psychosocial functioning. As part of this survey component, parents
+indicated whether they perceived their child&#8217;s sleep as having
+changed for the better or the worse. This was measured as a binary
+&#8220;yes&#8221; or &#8220;no&#8221; item, followed by a rating of
+the degree to which sleep had changed where parents indicated a change
+(i.e., sliding scale of percentage of perceived change). Rather than define
+this for parents in terms of specific sleep constructs (i.e., quality,
+duration), we left this open to parent&#8217;s overall perception of
+improved or worsened sleep.</p><p><italic toggle="yes">*Sleep Disturbance Scale for Children</italic> (SDSC; <xref rid="jsab075-B4" ref-type="bibr">Bruni et al., 1996</xref>; <xref rid="jsab075-B38" ref-type="bibr">Romeo et al., 2013</xref>): This
+26-item questionnaire was used to assess child sleep. It has been shown to
+have good test-retest validity. Seven items (questions 1&#8211;5, 10, 11)
+were used to calculate the disorders of initiation and maintenance of sleep
+(DIMS) score. DIMS scores range from 7 to 35, where higher scores indicate
+worse sleep problems. DIMS scores of 11 and greater are clinically
+significant.</p><p><italic toggle="yes">*Pediatric Quality of Life Inventory</italic> (PedsQL; <xref rid="jsab075-B42" ref-type="bibr">Varni et al., 1999</xref>): This
+13-item questionnaire assessed children&#8217;s psychosocial functioning,
+using the physical subscale (scores range from 0 to 32) and emotional
+well-being subscale (scores range from 0 to 20). It has been shown to have
+excellent reliability and validity. Lower scores indicate poorer quality of
+life.</p><p><italic toggle="yes">*Bedtime Routines Questionnaire</italic> (BRQ; <xref rid="jsab075-B23" ref-type="bibr">Henderson &amp; Jordan,
+2010</xref>): This 26-item questionnaire assessed the child&#8217;s
+bedtime routine; it has been shown to have good convergent validity and
+internal consistency. Subscales for the BRQ are bedtime routine consistency
+(scores range from 10 to 50), adaptive bedtime activities (scores range from
+10 to 50), and maladaptive bedtime activities (scores range from 6 to 30),
+where higher scores on the BRQ subscales indicate poorer bedtime
+routines.</p><p><italic toggle="yes">Sleep Disturbance&#8212;Short Form 8a</italic> (PSD; <xref rid="jsab075-B50" ref-type="bibr">Yu et al., 2012</xref>): This 8-item
+Patient-Reported Outcomes Measurement Information System (PROMIS)
+questionnaire assessed parental sleep and wake functioning related to sleep
+disturbance. The PSD has good convergent validity with measures such as the
+Epworth Sleepiness Scale. Scores range from 8 to 40, where higher scores
+indicate greater sleep disturbance.</p><p><italic toggle="yes">Sleep-Related Impairment&#8212;Short Form 8a</italic> (PSRI; <xref rid="jsab075-B50" ref-type="bibr">Yu et al., 2012</xref>): This 8-item
+PROMIS questionnaire assessed parental sleep and wake impairment related to
+sleep problems. The PSRI has good convergent validity with measures such as
+the Epworth Sleepiness Scale. Scores range from 8 to 40, where higher scores
+indicate greater sleep disturbance.</p><p><italic toggle="yes">*Single Item Fatigue Impact Scale</italic> (SIFIS; <xref rid="jsab075-B7" ref-type="bibr">Chan et al., 2003</xref>): This single
+item measure assessed parental fatigue on a scale of 0 to 10, on which 10 is
+most severe.</p><p><italic toggle="yes">Distress Thermometer</italic> (<xref rid="jsab075-B33" ref-type="bibr">National Comprehensive Cancer Network, 2020</xref>;
+<xref rid="jsab075-B35" ref-type="bibr">Ownby, 2019</xref>): This single
+item measure assessed parental distress. Scores range from 0 to 10, where 10
+is most severe. We used a clinical cutoff of 4 established in an adult
+cancer population (<xref rid="jsab075-B13" ref-type="bibr">Donovan et al.,
+2014</xref>).</p><p><italic toggle="yes">Confusion, Hubbub, and Order Scale</italic> (CHAOS; <xref rid="jsab075-B8" ref-type="bibr">Coldwell et al., 2006</xref>): This
+6-item questionnaire assessed household chaos. Scores range from 6 to 30,
+where higher scores indicate greater chaos.</p></sec><sec><title>Qualitative Interviews</title><p>The semi-structured interview guide (see <xref rid="sup1" ref-type="supplementary-material">supplementary
+materials</xref>) included questions about the child&#8217;s and
+parent&#8217;s own sleep and coping during the COVID-19 pandemic, their
+experiences using the BNBD program, and preferences regarding future
+sleep-related supports for families. The interview guide was developed based
+on the <italic toggle="yes">Impact of COVID-19</italic> questionnaire to explore further
+the responses to the quantitative items and factors that contributed to
+changes in children&#8217;s sleep.</p></sec></sec><sec><title>Analyses</title><p>Quantitative analyses were conducted using Statistical Package for the Social
+Sciences (SPSS, Version 25.0). Descriptive statistics summarized sample
+characteristics, current quality of child and parent sleep, quality of life,
+parent distress, and household chaos. The primary outcome variable of interest
+was parents&#8217; perceived changes in their children&#8217;s sleep during
+the COVID-19 pandemic. The categories were based on parents&#8217; responses
+to the question &#8220;Has COVID-19 affected your child&#8217;s
+sleep&#8221; from the <italic toggle="yes">Impacts of COVID-19</italic> questionnaire. The
+three categories based on the responses to this question were &#8220;yes, for
+the better&#8221;, &#8220;yes, for the worse&#8221;, and &#8220;no
+change&#8221;. Chi-square tests were used to examine factors related to
+positive or negative changes in sleep. One-way analysis of variance (ANOVA) and
+related <italic toggle="yes">post hoc</italic> tests were used to examine differences in
+sleep variables (e.g., bedtime routines, quality of life, household chaos) based
+on changes in children&#8217;s sleep. We used <italic toggle="yes">t</italic>-tests to
+examine differences between post-intervention and current sleep disturbance
+ratings to understand changes in these outcomes over time (i.e., SDSC measured
+3.5&#8201;years ago).</p><p>Following the methodology of <xref rid="jsab075-B51" ref-type="bibr">Braun
+&amp; Clarke (2012)</xref>, the first author (N.E.M.) conducted a
+thematic analysis of the qualitative data to explore factors contributing to
+children&#8217;s and parent&#8217;s sleep quality and overall family stress.
+Transcripts were analyzed line-by-line to develop codes that were organized into
+broader themes. The qualitative data were managed using NVivo software (QSR
+International, Version 12). The second author (E.K.) reviewed coding and theme
+development at each stage. The senior author (P.C.) oversaw the coding and theme
+development process. Rigour was maintained among N.E.M., E.K., and P.C. through
+frequent coding meetings. Finally, quotations from participants were selected to
+illustrate the themes and reviewed by N.E.M., E.K., and P.C. </p></sec></sec><sec sec-type="results"><title>Results</title><sec><title>Quantitative Results</title><p>For the quantitative survey, 123 of the 524 eligible participants consented and
+began the survey, and 85 completed it. The 85 participants predominantly
+identified as mothers (91.8%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>78), with
+children ranging in age from 4 to 14&#8201;years
+(<italic toggle="yes">M&#8201;</italic>=<italic toggle="yes">&#8201;</italic>8.1,
+<italic toggle="yes">SD</italic> = 2.72). Over half the sample (57.6%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>49) were
+elementary school-aged (i.e., between the ages of 6 and 10&#8201;years). In
+terms of COVID-19 descriptive information, many parents&#8217; employment
+hours remained the same during the COVID-19 pandemic (44.7%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>38), but
+31.8% (<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>27)
+had begun working from home since the start of the pandemic. Nearly half of
+households included an essential worker (45.9%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>39), primarily
+healthcare workers (56.4%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>22). At the
+time this survey was administered, most children were still attending school and
+had transitioned to at-home learning (74.1%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>63) for up to
+five hours a day (97.6%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>83).
+Additional demographic information is shown in <xref rid="jsab075-T1" ref-type="table">Table&#160;I</xref>.</p><table-wrap position="float" id="jsab075-T1" orientation="portrait"><label>Table I.</label><caption><p>Child and Parent Demographics (n&#8201;=&#8201;85)</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col valign="top" align="left" span="1"/><col valign="top" align="center" span="1"/><col valign="top" align="center" span="1"/></colgroup><thead><tr><th rowspan="2" colspan="1"/><th colspan="2" rowspan="1"><italic toggle="yes">n</italic> (%)<hr/></th></tr><tr><th rowspan="1" colspan="1">Survey
+(<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>85)</th><th rowspan="1" colspan="1">Interview
+(<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>16)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Child sex (female)</td><td rowspan="1" colspan="1">51 (60)</td><td rowspan="1" colspan="1">8 (50)</td></tr><tr><td rowspan="1" colspan="1">Child ethnicity</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#8195;White/Caucasian</td><td rowspan="1" colspan="1">74 (87.1)</td><td rowspan="1" colspan="1">15 (93.8)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Asian</td><td rowspan="1" colspan="1">4 (4.7)</td><td rowspan="1" colspan="1">0 (0)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Missing</td><td rowspan="1" colspan="1">7 (8.2)</td><td rowspan="1" colspan="1">1 (6.3)</td></tr><tr><td rowspan="1" colspan="1">Parent ethnicity</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#8195;White/Caucasian</td><td rowspan="1" colspan="1">77 (90.6)</td><td rowspan="1" colspan="1">15 (93.8)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Asian</td><td rowspan="1" colspan="1">4 (4.7)</td><td rowspan="1" colspan="1">0 (0)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Missing</td><td rowspan="1" colspan="1">4 (4.7)</td><td rowspan="1" colspan="1">1 (6.3)</td></tr><tr><td rowspan="1" colspan="1">Parent highest education level</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#8195;Completed high school/Some post-secondary</td><td rowspan="1" colspan="1">5 (5.9)</td><td rowspan="1" colspan="1">1 (6.3)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Completed post-secondary</td><td rowspan="1" colspan="1">45 (52.9)</td><td rowspan="1" colspan="1">9 (56.3)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Completed advanced degree</td><td rowspan="1" colspan="1">31 (36.5)</td><td rowspan="1" colspan="1">5 (31.3)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Missing</td><td rowspan="1" colspan="1">4 (4.7)</td><td rowspan="1" colspan="1">1 (6.3)</td></tr><tr><td rowspan="1" colspan="1">Household income</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#8195;$59,000 and less</td><td rowspan="1" colspan="1">9 (10.6)</td><td rowspan="1" colspan="1">2 (12.6)</td></tr><tr><td rowspan="1" colspan="1">&#8195;$60,000&#8211;$99,999</td><td rowspan="1" colspan="1">23 (27.1)</td><td rowspan="1" colspan="1">6 (37.5)</td></tr><tr><td rowspan="1" colspan="1">&#8195;$100,000&#8211;$149,999</td><td rowspan="1" colspan="1">24 (28.2)</td><td rowspan="1" colspan="1">5 (31.3)</td></tr><tr><td rowspan="1" colspan="1">&#8195;$150,000 and more</td><td rowspan="1" colspan="1">23 (27.1)</td><td rowspan="1" colspan="1">3(18.8)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Prefer not to respond</td><td rowspan="1" colspan="1">3 (3.5)</td><td rowspan="1" colspan="1">0 (0)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Missing</td><td rowspan="1" colspan="1">3 (3.5)</td><td rowspan="1" colspan="1">0 (0)</td></tr><tr><td rowspan="1" colspan="1">Geographic location (Canada)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#8195;Western</td><td rowspan="1" colspan="1">26 (30.6)</td><td rowspan="1" colspan="1">3 (18.8)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Prairies and Northern Territories</td><td rowspan="1" colspan="1">18 (21.2)</td><td rowspan="1" colspan="1">4 (25.0)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Central</td><td rowspan="1" colspan="1">14 (16.5)</td><td rowspan="1" colspan="1">3 (18.8)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Atlantic</td><td rowspan="1" colspan="1">23 (27.1)</td><td rowspan="1" colspan="1">5 (31.3)</td></tr><tr><td rowspan="1" colspan="1">&#8195;Missing</td><td rowspan="1" colspan="1">4 (4.7)</td><td rowspan="1" colspan="1">1 (6.3)</td></tr></tbody></table><table-wrap-foot><fn id="tblfn1"><p><italic toggle="yes">Note.</italic> Parent data refers to respondent parent.</p></fn></table-wrap-foot></table-wrap></sec><sec><title>Perceived Changes in Children&#8217;s Sleep and Stress during the COVID-19
+Pandemic</title><p>Participants were grouped based on parental perceptions of their
+children&#8217;s sleep during the COVID-19 pandemic (i.e., for the worse,
+40.0%, <italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>34;
+for the better, 14.1%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>12; and no
+change, 45.9%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>39, see <xref rid="jsab075-T2" ref-type="table">Table&#160;II</xref> for all results).
+Parents of children in the worsened sleep group significantly attributed changes
+in sleep to reduced exercise (<italic toggle="yes">&#967;</italic><sup>2</sup>(1)
+= 6.56, <italic toggle="yes">p</italic> = .017), increased screen time
+(<italic toggle="yes">&#967;</italic><sup>2</sup>(1) = 13.32,
+<italic toggle="yes">p</italic> &lt; .001), and increased anxiety levels
+(<italic toggle="yes">&#967;</italic><sup>2</sup>(1) = 6.56,
+<italic toggle="yes">p</italic> = .017) during the COVID-19 pandemic period.
+However, diet (<italic toggle="yes">&#967;</italic><sup>2</sup>(1) = 2.05,
+<italic toggle="yes">p</italic> = .317), sleep routines
+(<italic toggle="yes">&#967;</italic><sup>2</sup>(1) = 1.05,
+<italic toggle="yes">p</italic> = .335), and daytime routines
+(<italic toggle="yes">&#967;</italic><sup>2</sup>(1) = 2.05,
+<italic toggle="yes">p</italic> = .317) were not significantly associated with
+parental perceptions of children&#8217;s poorer sleep. <italic toggle="yes">Post
+hoc</italic> tests showed that responses from parents of children whose
+sleep worsened indicated that sleep changes were significantly related to their
+child&#8217;s stress and impaired coping and that these challenges were
+significantly higher relative to the no change in sleep group
+(<italic toggle="yes">MD</italic> = 1.36, <italic toggle="yes">SE</italic> = 0.19,
+<italic toggle="yes">p</italic> &lt; .001).</p><table-wrap position="float" id="jsab075-T2" orientation="portrait"><label>Table 2</label><caption><p>Changes in Children&#8217;s and Parents&#8217; Sleep and Stress
+during the COVID-19 Pandemic</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col valign="top" align="left" span="1"/><col valign="top" align="center" span="1"/><col valign="top" align="center" span="1"/><col valign="top" align="center" span="1"/><col valign="top" align="center" span="1"/><col valign="top" align="center" span="1"/><col valign="top" align="center" span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Sleep changed for the better (<italic toggle="yes">n</italic> =
+12)</th><th rowspan="1" colspan="1">Sleep changed for the worse (<italic toggle="yes">n</italic> =
+34)</th><th rowspan="1" colspan="1">No change in sleep (<italic toggle="yes">n</italic> = 39)</th><th rowspan="1" colspan="1"><italic toggle="yes">df</italic> (between, within)</th><th rowspan="1" colspan="1">
+<italic toggle="yes">F</italic>
+</th><th rowspan="1" colspan="1">Sig.</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Factors perceived as related to changes in sleep
+(<italic toggle="yes">n</italic>, %)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Diet</td><td rowspan="1" colspan="1">3 (25)</td><td rowspan="1" colspan="1">3 (8.8)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><italic toggle="yes">p</italic> = .317<xref rid="tblfn3" ref-type="table-fn"><sup>&#8224;</sup></xref></td></tr><tr><td rowspan="1" colspan="1"> Exercise</td><td rowspan="1" colspan="1">3 (25)</td><td rowspan="1" colspan="1">23 (67.6)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<bold><italic toggle="yes">p</italic> = .017</bold>
+<xref rid="tblfn3" ref-type="table-fn">
+<sup>&#8224;</sup>
+</xref>
+</td></tr><tr><td rowspan="1" colspan="1"> Sleep routines</td><td rowspan="1" colspan="1">7 (58.3)</td><td rowspan="1" colspan="1">14 (41.2)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><italic toggle="yes">p</italic> = .335<xref rid="tblfn3" ref-type="table-fn"><sup>&#8224;</sup></xref></td></tr><tr><td rowspan="1" colspan="1"> Daytime routines</td><td rowspan="1" colspan="1">9 (75)</td><td rowspan="1" colspan="1">31 (91.2)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><italic toggle="yes">p</italic> = .317<xref rid="tblfn3" ref-type="table-fn"><sup>&#8224;</sup></xref></td></tr><tr><td rowspan="1" colspan="1"> Increased screen time</td><td rowspan="1" colspan="1">2 (16.7)</td><td rowspan="1" colspan="1">26 (76.5)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<bold><italic toggle="yes">p &lt; .</italic>001</bold>
+<xref rid="tblfn3" ref-type="table-fn">
+<sup>&#8224;</sup>
+</xref>
+</td></tr><tr><td rowspan="1" colspan="1"> Stress levels</td><td rowspan="1" colspan="1">3 (25)</td><td rowspan="1" colspan="1">15 (44.1)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><italic toggle="yes">p = .</italic>315<xref rid="tblfn3" ref-type="table-fn"><sup>&#8224;</sup></xref></td></tr><tr><td rowspan="1" colspan="1"> Anxiety levels</td><td rowspan="1" colspan="1">3 (25)</td><td rowspan="1" colspan="1">23 (67.6)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">
+<bold><italic toggle="yes">p</italic> = .017</bold>
+<xref rid="tblfn3" ref-type="table-fn">
+<sup>&#8224;</sup>
+</xref>
+</td></tr><tr><td rowspan="1" colspan="1"> Other</td><td rowspan="1" colspan="1">1 (8.3)</td><td rowspan="1" colspan="1">3 (8.8)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><italic toggle="yes">p =</italic> 1.00<xref rid="tblfn3" ref-type="table-fn"><sup>&#8224;</sup></xref></td></tr><tr><td rowspan="1" colspan="1">Perceived effect of sleep on children&#8217;s stress and
+coping (<italic toggle="yes">n</italic>, %)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">29.99</td><td rowspan="1" colspan="1">
+<bold><italic toggle="yes">p</italic> &lt; .001</bold>
+<xref rid="tblfn4" ref-type="table-fn">
+<sup>&#8225;</sup>
+</xref>
+</td></tr><tr><td rowspan="1" colspan="1"> Not at all/Slightly</td><td rowspan="1" colspan="1">6 (50.0)</td><td rowspan="1" colspan="1">9 (26.5)</td><td rowspan="1" colspan="1">36 (92.3)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Moderately</td><td rowspan="1" colspan="1">1 (8.3)</td><td rowspan="1" colspan="1">23 (67.6)</td><td rowspan="1" colspan="1">2 (5.1)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Very/Extremely</td><td rowspan="1" colspan="1">5 (41.7)</td><td rowspan="1" colspan="1">2 (5.8)</td><td rowspan="1" colspan="1">1 (2.6)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Difficulty initiating and maintaining sleep (SDSC; M, (SD)</td><td rowspan="1" colspan="1">14.00 (4.11)</td><td rowspan="1" colspan="1">18.71 (4.26)</td><td rowspan="1" colspan="1">14.31 (4.38)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">11.07</td><td rowspan="1" colspan="1">
+<bold><italic toggle="yes">p</italic> &lt; .001</bold>
+<xref rid="tblfn5" ref-type="table-fn">
+<sup>&#167;</sup>
+</xref>
+</td></tr><tr><td rowspan="1" colspan="1">PedsQL (M, (SD)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Emotional well-being</td><td rowspan="1" colspan="1">64.58 (17.12)</td><td rowspan="1" colspan="1">48.32 (15.31)</td><td rowspan="1" colspan="1">62.95 (17.61)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">8.33</td><td rowspan="1" colspan="1">
+<bold><italic toggle="yes">p =</italic> .001</bold>
+<xref rid="tblfn5" ref-type="table-fn">
+<sup>&#167;</sup>
+</xref>
+</td></tr><tr><td rowspan="1" colspan="1"> Physical well-being</td><td rowspan="1" colspan="1">88.54 (12.08)</td><td rowspan="1" colspan="1">75.00 (13.65)</td><td rowspan="1" colspan="1">86.70 (12.94)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">8.67</td><td rowspan="1" colspan="1">
+<bold><italic toggle="yes">p</italic> &lt; .001</bold>
+<xref rid="tblfn5" ref-type="table-fn">
+<sup>&#167;</sup>
+</xref>
+</td></tr><tr><td rowspan="1" colspan="1">Bedtime routine (BRQ; M, (SD)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">&#8195;Consistency</td><td rowspan="1" colspan="1">43.75 (5.59)</td><td rowspan="1" colspan="1">42.41 (6.72)</td><td rowspan="1" colspan="1">45.54 (3.69)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">3.12</td><td rowspan="1" colspan="1">
+<bold><italic toggle="yes">p =</italic> .05</bold>
+<xref rid="tblfn5" ref-type="table-fn">
+<sup>&#167;</sup>
+</xref>
+</td></tr><tr><td rowspan="1" colspan="1">&#8195;Adaptive</td><td rowspan="1" colspan="1">41.58 (2.71)</td><td rowspan="1" colspan="1">42.00 (4.02)</td><td rowspan="1" colspan="1">41.79 (4.84)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">0.05</td><td rowspan="1" colspan="1"><italic toggle="yes">p =</italic> .954<xref rid="tblfn5" ref-type="table-fn"><sup>&#167;</sup></xref></td></tr><tr><td rowspan="1" colspan="1">&#8195;Maladaptive</td><td rowspan="1" colspan="1">12.75 (3.17)</td><td rowspan="1" colspan="1">15.44 (3.66)</td><td rowspan="1" colspan="1">12.15 (4.19)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">6.90</td><td rowspan="1" colspan="1">
+<bold><italic toggle="yes">p =</italic> .002</bold>
+<xref rid="tblfn5" ref-type="table-fn">
+<sup>&#167;</sup>
+</xref>
+</td></tr><tr><td rowspan="1" colspan="1">Parental sleep disturbance (PSD; M, (SD)</td><td rowspan="1" colspan="1">53.03 (9.82)</td><td rowspan="1" colspan="1">53.18 (7.14)</td><td rowspan="1" colspan="1">51.35 (7.70)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">0.49</td><td rowspan="1" colspan="1"><italic toggle="yes">p =</italic> .576<xref rid="tblfn5" ref-type="table-fn"><sup>&#167;</sup></xref></td></tr><tr><td rowspan="1" colspan="1">Parental sleep-related impairment T-scores (PSRI; M, (SD)</td><td rowspan="1" colspan="1">55.41 (9.14)</td><td rowspan="1" colspan="1">57.32 (10.06)</td><td rowspan="1" colspan="1">56.29 (9.12)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">0.26</td><td rowspan="1" colspan="1"><italic toggle="yes">p =</italic> .772<xref rid="tblfn5" ref-type="table-fn"><sup>&#167;</sup></xref></td></tr><tr><td rowspan="1" colspan="1">Parental fatigue (SIFIS; M, (SD)</td><td rowspan="1" colspan="1">7.17 (2.89)</td><td rowspan="1" colspan="1">7.62 (2.13)</td><td rowspan="1" colspan="1">6.87 (2.44)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">0.89</td><td rowspan="1" colspan="1"><italic toggle="yes">p</italic> = .416<xref rid="tblfn5" ref-type="table-fn"><sup>&#167;</sup></xref></td></tr><tr><td rowspan="1" colspan="1">Parental distress (DT; M, (SD)</td><td rowspan="1" colspan="1">5.00 (2.56)</td><td rowspan="1" colspan="1">4.65 (2.25)</td><td rowspan="1" colspan="1">4.03 (2.27)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">1.12</td><td rowspan="1" colspan="1"><italic toggle="yes">p</italic> = .332<xref rid="tblfn5" ref-type="table-fn"><sup>&#167;</sup></xref></td></tr><tr><td rowspan="1" colspan="1">Household chaos (CHAOS; M, (SD)</td><td rowspan="1" colspan="1">2.24 (0.71)</td><td rowspan="1" colspan="1">2.34 (0.73)</td><td rowspan="1" colspan="1">2.18 (0.56)</td><td rowspan="1" colspan="1">2, 82</td><td rowspan="1" colspan="1">0.54</td><td rowspan="1" colspan="1"><italic toggle="yes">p</italic> = .584<xref rid="tblfn5" ref-type="table-fn"><sup>&#167;</sup></xref></td></tr></tbody></table><table-wrap-foot><fn id="tblfn2"><p><italic toggle="yes">Note.</italic> PSD = Parent Sleep Disturbance Scale;
+PSRI = Parent Sleep Related Impairment Scale; SIFIS
+= Single Item Fatigue Impact Scale; DT = Distress
+Thermometer; CHAOS = Chaos, Hubbub and Order Scale;</p></fn><fn id="tblfn3"><label>&#8224;</label><p>= Chi-Square Test Exact Sig. (2-sided);</p></fn><fn id="tblfn4"><label>&#8225;</label><p>= Fisher&#8217;s Exact Test;</p></fn><fn id="tblfn5"><label>&#167;</label><p>= ANOVA; bolded text = significant correlation.</p></fn></table-wrap-foot></table-wrap><p>The DIMS score (from SDSC) was also significantly higher in the group in which
+sleep changed for the worse compared to the no change group (<italic toggle="yes">MD</italic>
+= 4.40, <italic toggle="yes">SE</italic> = 1.01, <italic toggle="yes">p</italic> &lt;
+.001) and the group whose sleep changed for the better (<italic toggle="yes">MD</italic>
+= 4.71, <italic toggle="yes">SE</italic> = 1.44, <italic toggle="yes">p</italic> =
+.002). Parental reports of their children&#8217;s emotional quality of life
+(PedsQL) also demonstrated significantly lower scores in those children whose
+sleep changed for the worse compared to the group whose sleep changed for the
+better (<italic toggle="yes">MD</italic> = &#8722;16.26, <italic toggle="yes">SE</italic>
+= 5.59, <italic toggle="yes">p</italic> = .005) and the no change group
+(<italic toggle="yes">MD</italic> = &#8722;14.63, <italic toggle="yes">SE</italic> =
+3.91, <italic toggle="yes">p</italic> &lt; .001). Physical quality of life scores were
+also lower in the worsened sleep group compared to the group whose sleep changed
+for the better (<italic toggle="yes">MD</italic> = &#8722;13.54,
+<italic toggle="yes">SE</italic> = 4.44, <italic toggle="yes">p</italic> = .003) and
+the no change group (<italic toggle="yes">MD</italic> = &#8722;11.70,
+<italic toggle="yes">SE</italic> = 3.10, <italic toggle="yes">p</italic> &lt; .001).</p><p>Of the 51 participants who previously accessed the BNBD intervention, over half
+reported they continued to use BNBD intervention strategies (80.4%,
+<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>41) and
+74.5% (<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>38)
+reported that other families would benefit from accessing the program during the
+COVID-19 pandemic. In terms of changes in sleep since the RCT, there was a
+significant difference between the last obtained DIMS scores
+(<italic toggle="yes">M&#8201;</italic>=<italic toggle="yes">&#8201;</italic>12.58,
+<italic toggle="yes">SD</italic> = 5.78; from SDSC) and those in the current
+study (<italic toggle="yes">M&#8201;</italic>=<italic toggle="yes">&#8201;</italic>16.02,
+<italic toggle="yes">SD</italic> = 4.78), indicating that children&#8217;s
+sleep had worsened since the BNBD RCT, <italic toggle="yes">t</italic>(80) =
+&#8722;5.12, <italic toggle="yes">p</italic> &lt; .001.</p><p>Maladaptive bedtime behavior scores (from BRQ) were significantly higher in
+children whose sleep had worsened compared to those in the no change group
+(<italic toggle="yes">MD</italic> = 3.29, <italic toggle="yes">SE</italic> = 0.91,
+<italic toggle="yes">p</italic> &lt; .001) and the group for whom sleep changed for
+the better (<italic toggle="yes">MD</italic> = 2.69, <italic toggle="yes">SE</italic> =
+1.30, <italic toggle="yes">p</italic> = .04). Consistency in bedtime routine scores
+were highest in children whose sleep had not changed relative to those whose
+sleep had changed for the worse (<italic toggle="yes">MD</italic> = &#8722;3.13,
+<italic toggle="yes">SE</italic> = 1.26, <italic toggle="yes">p</italic> = .015).</p></sec><sec><title>Parental Sleep and Stress during the COVID-19 Pandemic</title><p>Most parents (62.4%) rated their distress (from the single-item Distress
+Thermometer) above the clinical cutoff of 4, and 74.1%
+(<italic toggle="yes">n&#8201;</italic>=<italic toggle="yes">&#8201;</italic>63) parents
+indicated that their sleep was a current problem on the <italic toggle="yes">Impact of
+COVID-19</italic> questionnaire. The majority of parents reported their
+sleep had changed for the worse (60.0%,
+<italic toggle="yes">n</italic>&#8201;=&#8201;51), but nearly one-third of
+parents reported no change in their sleep (31.8%,
+<italic toggle="yes">n</italic>&#8201;=&#8201;27), while 8.2%
+(<italic toggle="yes">n</italic>&#8201;=&#8201;7) reported their sleep had
+changed for the better. When compared across the three child sleep change groups
+(i.e., for the better, for the worse, and no change), there were no significant
+differences in parent sleep disturbance (PSD) or sleep-related impairments
+(PSRI), parental fatigue (SIFIS) or distress (Distress Thermometer), or
+household chaos (CHAOS; see<xref rid="jsab075-T2" ref-type="table">Table&#160;II</xref>).</p></sec><sec><title>Qualitative Results</title><p>A total of 38 participants were identified as eligible and invited to
+participate. Of those emailed, 19 participants responded and expressed interest
+in participation, and 17 booked an interview, with 1 participant who did not
+attend or rebook. A total of 16 participants (15 mothers) of children aged
+4&#8211;11&#8201;years (M&#8201;=&#8201;7.69&#8201;years, SD
+= 2.24) were interviewed. Within this sample, 50%
+(<italic toggle="yes">n</italic>&#8201;=&#8201;8) reported that their
+children&#8217;s sleep had worsened, 18.8%
+(<italic toggle="yes">n</italic>&#8201;=&#8201;3) had improved, and 31.3%
+(<italic toggle="yes">n</italic>&#8201;=&#8201;5) had not changed. Four
+overarching themes were generated. Each theme describes the variety of ways
+stressors associated with the COVID-19 pandemic were handled by families and the
+diverse impacts on children&#8217;s sleep.</p><sec><title>Theme 1: The Impact of Change in Routines on Families&#8217; Stress and
+Coping during the COVID-19 Pandemic</title><p>The COVID-19 pandemic brought about significant changes in routines for many
+families, including adjusting to what parents referred to as &#8220;the
+new normal&#8221;; creating new routines and structure, and balancing new
+and existing household responsibilities. In families for which the
+child&#8217;s sleep was perceived to be worse, parents discussed multiple
+disruptions to their routines (i.e., concurrently fulfilling employment and
+childcare/household responsibilities) and challenges with being able to
+instill routines amid balancing responsibilities and expectations.</p><p>
+<disp-quote content-type="extract"><p><italic toggle="yes">&#8230;Typically we wouldn&#8217;t spend as much time at
+work on the weekends but we were going in, and still are going
+into work on weekends. So there isn&#8217;t really that same
+kind of rhythm to the week even.</italic> (Mother of a
+6-year-old, sleep changed for the worse).</p></disp-quote>
+</p><p>In families whose children were perceived to experience better or unchanged
+sleep, parents were able to establish new routines by becoming flexible with
+schooling, work, and other household responsibilities. This flexibility led
+many families to describe life as less hectic.</p><p>
+<disp-quote content-type="extract"><p><italic toggle="yes">&#8230;It feels like time has slowed down and I'm
+able to enjoy this phase, for better or worse&#8230;. I also
+don&#8217;t have to be rushing around dropping them off at
+school and daycare and it&#8217;s much more relaxing and our
+relationship is more relaxed because I'm not rushing
+anyone out of the house as much.</italic> (Mother of a
+7-year-old, sleep changed for the better).</p></disp-quote>
+</p></sec><sec><title>Theme 2: Stress Cascades into Parents&#8217; Sleep</title><p>Many parents experienced stress regarding the COVID-19 pandemic in terms of
+the health and safety of family members, as well as employment arrangements
+and security. They believed that this stress interfered with their sleep
+onset and sleep quality.</p><p>
+<disp-quote content-type="extract"><p><italic toggle="yes">&#8230;Maybe I was more laser-focused on the news than I
+would be typically because I had been trying to keep up with
+what was happening with COVID, but I found I struggled to
+sleep&#8230;I found I had trouble falling asleep&#8230;I
+would wake up in the middle of the night and just not be able to
+get back to sleep.</italic> (Mother of a 6-year-old, no change
+in sleep).</p></disp-quote>
+</p><p>Parents described intensified stress and challenges trying to balance
+competing responsibilities, such as childcare, at-home learning, working
+from home, and household responsibilities. Parents described a connection
+between elevated stress levels and poor sleep. Stress could be lessened,
+however, when parents felt they had adequate support from another parent or
+family member and could &#8220;tag team&#8221; home and childcare
+responsibilities.</p><p>
+<disp-quote content-type="extract"><p><italic toggle="yes">I find that we&#8217;ve settled into a new normal way of
+being. I work from home now, and I didn&#8217;t before. My
+husband is a stay at home dad, so it makes it easier for me to
+work from home. I&#8217;d say in the beginning&#8230;there
+were some things that seemed to relate to sleep and COVID early
+on in the experience, but now we&#8217;ve settled back into
+what I would describe as the new status quo in our
+house</italic> (Mother of a 6-year-old, sleep, no change in
+sleep).</p></disp-quote>
+</p></sec><sec><title>Theme 3: Stress Influences Sleep in Children</title><p>Similar to parents&#8217; experiences with sleep, parents believed that
+their children experienced stress related to worrying about COVID-19 and the
+health implications accompanying it. Parents felt that children often
+internalized this stress which emerged at bedtime.</p><p>
+<disp-quote content-type="extract"><p><italic toggle="yes">So when [the COVID-19 pandemic] first got started our son was
+very afraid, very scared, [and] had a lot of fears about
+it&#8230;there have been a couple of occasions, especially
+through the beginning where he was asking my husband,
+&#8220;What happens when you die?&#8221; And that happened a
+few times at bedtime, those conversations of what happens when
+you die&#8230;.</italic> (Mother of a 6-year-old, no perceived
+change in sleep).</p></disp-quote>
+</p><p>At-home learning was another prominent change. Parents described at-home
+learning as less stressful for children who enjoyed working at their own
+pace or did not enjoy the classroom environment, but more stressful for
+children who needed the classroom environment to feel confident in learning.
+Children&#8217;s stress varied, even within the same child.</p><p>
+<disp-quote content-type="extract"><p><italic toggle="yes">&#8230;We were doing schoolwork at home&#8230;we would
+sit down to do it and she would get very emotional about doing
+it. And I couldn't really piece together why. Some days
+she would do it if she had the confidence and would know that
+she was doing it and it was all correct, but if she was doing it
+and it was becoming frustrating, she would completely lose
+it.</italic> (Mother of a 7-year-old, sleep changed for the
+worse).</p></disp-quote>
+</p><p>Stress from at-home learning is one example of disruptions causing daytime
+stress, which parents believed subsequently impacted children&#8217;s
+nighttime routine and sleep. In less structured homes, parents felt their
+children had a harder time getting to sleep, woke up later in the morning,
+and had lower energy levels during the day. In these contexts, parents
+indicated that many children had reduced opportunities to play and be
+active.</p><p>
+<disp-quote content-type="extract"><p><italic toggle="yes">&#8230;Her day-to-day structure has changed so much. But
+there are numerous times where I'll put her to bed, say
+goodnight, and she&#8217;ll come downstairs like
+&#8220;I'm so sorry, I just can't
+sleep&#8221; and I&#8217;m like, oh my gosh, we&#8217;ve
+been doing this for an hour and a half, two hours.</italic>
+(Mother of a 7-year-old, sleep changed for the worse).</p></disp-quote>
+</p></sec><sec><title>Theme 4: Bidirectional Nature of Stress and Sleep between Children and
+Parents</title><p>Children&#8217;s poor sleep affected parents&#8217; sleep because they
+worried about their children&#8217;s sleep, stayed up until their children
+were asleep, and were wakened by their children at night. Parents and
+children shared their worries about the COVID-19 pandemic and safety, which
+impacted sleep for both.</p><p>
+<disp-quote content-type="extract"><p><italic toggle="yes">Of course, it causes me great stress when she's that
+distressed. &#8230;It changes my mood as well when [child] is
+hurt, for sure. I feel stress about leaving her and going to
+work, about her being so unhappy&#8230;.Definitely higher
+stress level on me as well because of her unhappiness and the
+lack of sleep. Because she's getting me up through the
+night, I'm already a poor sleeper myself so
+she's adding to that which adds to my stress level as
+well.</italic> (Mother of a 7-year-old, sleep changed for the
+worse).</p></disp-quote>
+</p><p>Children&#8217;s stress transferred to parents and children internalized
+household stress, including that expressed by their parents. Parents
+indicated that when they created positive, structured environments, stress
+and sleep improved for them and their children.</p><p>
+<disp-quote content-type="extract"><p><italic toggle="yes">&#8230; I think I've really appreciated her needs
+from day one and it&#8217;s definitely made my life a lot
+easier too. It goes both ways &#8211; it's better for
+her and it's better for me and I&#8217;ve really
+acknowledged from early on that this is what she needs. Early to
+bed and early to rise &#8211; that's just what works
+for her</italic>. (Mother of a 7-year-old, sleep changed for the
+better).</p></disp-quote>
+</p></sec></sec></sec><sec sec-type="discussion"><title>Discussion</title><p>While many of these typically developing Canadian children with a previous history of
+insomnia experienced no changes (46%) or positive changes (14%) to
+their sleep during the COVID-19 pandemic, our results demonstrate that 40%
+of children experienced negative effects on their sleep approximately 5 months after
+the onset of the COVID-19 pandemic in Canada. Parental perceptions of
+children&#8217;s reduced exercise, increased screen time, stress, maladaptive
+bedtime routines, and poorer physical and emotional well-being were significantly
+related to children&#8217;s worsened sleep. Although the majority of parents
+(60%) indicated their own sleep had worsened and was reported as a problem,
+factors such as parental sleep-related impairment or disturbances, fatigue,
+distress, or household chaos were not significantly related to perceptions of
+changes in their children&#8217;s sleep. Upon further exploration of these
+concepts in the qualitative phase, parents linked negative effects of disrupted
+routines and familial stress due to the COVID-19 pandemic to worsened sleep in
+children. The qualitative findings also explored parents&#8217; experiences that
+affected children&#8217;s sleep, including positive factors, such as the
+importance of routines and flexibility with expectations, as well negative factors,
+such as lack of physical activity, increased use of screens, and increased stress.
+While the qualitative findings elaborated on the quantitative results in more depth,
+they also elaborated on the impact of various factors, such as changes in routines,
+on sleep during a pandemic in typically developing children.</p><p>The first objective of the present study was to describe current sleep behaviors and
+practices in a sample of Canadian children and their parents during the first wave
+of the COVID-19 pandemic. In our sample of children who previously had
+parent-reported insomnia symptoms, 40% of parents identified that their
+children&#8217;s sleep had worsened since the COVID-19 pandemic. Worse sleep was
+indicated by quantitative measures of difficulties in initiating and maintaining
+sleep and characterized in the qualitative data by later bedtimes, later wake-times,
+and longer sleep latencies. Children experiencing worsened sleep also tended to
+demonstrate poorer physical and emotional well-being, a finding reflective of other
+research on confinement at home during the pandemic (<xref rid="jsab075-B12" ref-type="bibr">Dellagiulia et al., 2020</xref>; <xref rid="jsab075-B18" ref-type="bibr">Grossman et al., 2021</xref>; <xref rid="jsab075-B26" ref-type="bibr">Liu et al., 2020</xref>; <xref rid="jsab075-B31" ref-type="bibr">Moore et al., 2020</xref>). Despite 60% of parents
+reporting poorer sleep during the pandemic, we saw no associations between
+parents&#8217; sleep and their children&#8217;s sleep (i.e., if the child was
+sleeping worse, better or the same as before the pandemic), highlighting the role
+resilience may play when it comes to sleep.</p><p>The changes in children&#8217;s sleep observed by parents can be explained by
+findings related to the second objective of this study, which was to identify key
+factors that contributed to changes in children&#8217;s sleep, as well as the
+impact of these changes on sleep. In the present study, activities throughout the
+day appeared to influence the child at night, because changes in exercise, screen
+time, and anxiety levels were significantly related to parents&#8217; perception
+of children&#8217;s sleep worsening. This highlights the importance of physical
+activity and mental well-being on sleep during this time. Children&#8217;s
+decreased physical activity and increased screen time during the COVID-19 pandemic
+have been linked to sleep disturbance in children in recent studies (<xref rid="jsab075-B26" ref-type="bibr">Liu et al., 2020</xref>; <xref rid="jsab075-B31" ref-type="bibr">Moore et al., 2020</xref>). The role of anxiety related to
+difficulty settling at bedtime was highlighted in the qualitative results, where
+children who were reported to experience anxiety were described as being
+dysregulated at bedtime. This finding is consistent with other research
+demonstrating difficulties for children in self-regulating at bedtime during the
+COVID-19 pandemic, especially when children are anxious (<xref rid="jsab075-B1" ref-type="bibr">Altena et al., 2020</xref>). While our study design does not
+allow us to make causal inferences between these factors and the COVID-19 pandemic,
+it is evident that significant changes to daytime routines, screen time, and
+physical activity have occurred, and that these are related to perceived changes in
+children&#8217;s sleep.</p><p>The third objective of this study was to understand families&#8217; needs and the
+barriers to children&#8217;s healthy sleep during the COVID-19 pandemic. Based on
+the qualitative data, disruption in routines was the most common factor perceived by
+parents to influence sleep, both for the better and for the worse. Specifically, for
+parents who reported their children&#8217;s sleep had worsened, disrupted routines
+appeared to be a significant barrier to resolving children&#8217;s sleep
+challenges and family stress during the COVID-19 pandemic. Recent research has
+highlighted routines as a challenge for many families during the COVID-19 pandemic
+(<xref rid="jsab075-B1" ref-type="bibr">Altena et al., 2020</xref>), with lack
+of routines found to be detrimental to both children&#8217;s and parents&#8217;
+sleep and well-being (<xref rid="jsab075-B10" ref-type="bibr">Cortese et al.,
+2020</xref>; <xref rid="jsab075-B24" ref-type="bibr">Kutana &amp; Lau,
+2020</xref>).</p><p>Increased screen time was another important factor related to poor sleep that was
+highlighted in both the quantitative and qualitative results. The relevance of this
+barrier to healthy sleep is supported by our finding that maladaptive bedtime
+behaviors, including increased time spent on screens, were significantly related to
+worsened sleep. Overreliance on screens, with increased use of screens during the
+COVID-19 pandemic, represents realities about online education and challenges for
+families balancing work at home and children&#8217;s home schooling. Nonetheless,
+there may be opportunities to intervene by monitoring and reducing screen time,
+particularly at bedtime, given their significant deleterious impact on
+children&#8217;s functioning in both day and night.</p><p>Disrupted routines and increased screen time have often been discussed as negatively
+influencing sleep variables during the pandemic (<xref rid="jsab075-B3" ref-type="bibr">Brooks et al., 2020</xref>; <xref rid="jsab075-B46" ref-type="bibr">Wang et al., 2020</xref>). Our study presents novel findings
+because parents indicated that the decrease in busy routines during the COVID-19
+pandemic had positive outcomes when they experienced decreased household chaos. This
+finding also helps account for the lack of significant relationships between any
+sleep changes groups and the CHAOS scale. For many families, daily chaos may have
+been reduced during the pandemic. Although changes in school or work attendance were
+described as disruptive to routines, many families reported less stress around
+rushing to be on time at various places. Our findings suggest that families have
+significant needs around establishing routines in the home to manage stress and
+screen time in an effort to ensure better sleep for their children.</p><p>Both the quantitative and qualitative study findings support the transactional nature
+of stress and sleep between children and parents (<xref rid="jsab075-B45" ref-type="bibr">Waldfogel et al., 2010</xref>) during the COVID-19 pandemic.
+At-home learning is one example of a shared stress between parents and children that
+was regarded as negative when parents found it difficult to maintain this routine
+and children were resistant. <xref rid="jsab075-B14" ref-type="bibr">Douglas et al.
+(2020)</xref> discussed at-home learning as an interpersonal stressor between
+parents and children, which is intensified for mothers, who more often have to
+manage their child&#8217;s education with detriments to their own employment. Such
+effects may be compounded because women have experienced insomnia at elevated rates
+during the COVID-19 pandemic (<xref rid="jsab075-B19" ref-type="bibr">Guadagni et
+al., 2020</xref>). Given that our sample was overwhelmingly mothers, it is
+unsurprising that most parents in our sample perceived their sleep worsened during
+COVID-19.</p><p>In order to conceptualize these results, the theoretical framework of the Double
+ABC-X model was used, which describes how stressors, resources, and perceptions of
+stressors accumulate following a crisis to result in the perceived overall stress
+level of a crisis (here, the COVID-19 pandemic; <xref rid="jsab075-B5" ref-type="bibr">Bush et al., 2016</xref>; <xref rid="jsab075-B28" ref-type="bibr">McCubbin &amp; Patterson, 1982</xref>; <xref rid="jsab075-B47" ref-type="bibr">Weber, 2011</xref>). Families who were
+overburdened by the stressor of the COVID-19 pandemic and lacked resources such as
+childcare and flexibility, were often trying simply to survive, rather than thrive,
+subsequently leading to increased perceptions of stress, as evidenced in these
+results. This is consistent with other research, including research conducted during
+the COVID-19 pandemic (e.g., <xref rid="jsab075-B34" ref-type="bibr">Orgil&#233;s
+et al., 2020</xref>), where the effects of these stressors have in past research
+been found to be reciprocal between parents and children (<xref rid="jsab075-B29" ref-type="bibr">Meltzer &amp; Montgomery-Downs, 2011</xref>), especially
+between children and mothers (<xref rid="jsab075-B17" ref-type="bibr">Dubois-Comtois
+et al., 2019</xref>). However, families in the present study who drew on
+resources and supported each other were more likely to thrive, despite challenges
+imparted by the COVID-19 pandemic. This was especially the case when families
+enjoyed newfound time together and when parents with partners supported each other
+in managing responsibilities and childcare.</p><sec><title>Strengths and Limitations</title><p>A significant strength of this study was its explanatory sequential mixed-methods
+design, which was uniquely able to identify different aspects of the COVID-19
+pandemic experience for families that were not captured in the other modality,
+thus explaining the nuanced context of factors associated with changes in sleep
+during the COVID-19 pandemic. The detail with which these factors associated
+with sleep change were explored support the translation of these findings into
+action for supporting parents through future interventions. Furthermore, because
+this study included Canadians across a range of locations, diverse experiences
+related to differences in intensity of COVID-19 prevalence and pandemic
+restrictions were inherently captured.</p><p>An important limitation of this study was the duration of time since the RCT
+study concluded, and as such, many factors could have influenced sleep between
+these two studies. The cross-sectional design also limits the ability to
+determine how sleep changed over time during the COVID-19 pandemic. The sample
+may inherently be at higher risk for sleep problems given the children&#8217;s
+prior history of insomnia, and therefore may not be representative of a healthy,
+typically developing population, although insomnia in childhood occurs at
+relatively high rates (<xref rid="jsab075-B30" ref-type="bibr">Mindell et al.,
+2006</xref>). Thus, selection bias may be inherent in the current results
+given that a subset of these participants took part in the entire BNBD
+intervention. These participants may have particularly benefited from the
+program and reported more favorable impressions of the program. As discussed in
+the results, however, participants who had previously accessed the BNBD
+intervention reported that children&#8217;s sleep had worsened since
+completing the intervention 3.5&#8201;years ago, which aligns with the general
+trend demonstrated in the literature on children&#8217;s sleep during the
+COVID-19 pandemic. In addition, although the distress thermometer scale is
+traditionally used in cancer populations, it is notable that most parents rated
+their distress as being above a clinical cutoff established in cancer patients
+and likely indicates that parents are experiencing unprecedented distress during
+the pandemic. We also acknowledge that this sample was overall well-resourced
+with parents who were well-educated, and most had maintained a regular income
+during the COVID-19 pandemic and thus, these changes may have differed from
+other families. Relatedly, many parents also identified as healthcare workers
+within this sample. Therefore, these parents may have experienced a degree of
+stress that may differ from the average parent due to their provision of
+healthcare and heightened risk of exposure to COVID-19. Due to the limited
+ethnic, racial, and socio-economic diversity of this sample, it is unclear how
+these results would generalize to diverse populations (e.g., low socio-economic
+status, ethnic minority groups) who may have experienced additional psychosocial
+stresses extending beyond the COVID-19 pandemic that may have influenced sleep.
+We also acknowledge the relatively wide age range for children included in the
+present study sample which may have introduced differences in the degree of
+influence of certain negative outcomes or stresses (e.g., managing schedules or
+screen time). While the age range was between 4 and 14&#8201;years of age,
+over half of the children in the sample were between the ages of 6 and
+10&#8201;years.</p></sec></sec><sec sec-type="conclusion"><title>Conclusion</title><p>A significant proportion of children may experience new or emerging sleep problems
+because of conditions related to the COVID-19 pandemic, suggesting that families
+would benefit from an intervention for children&#8217;s sleep with a family-based
+approach. To address this need, it is important for parents to have access to
+interventions that provide evidence-based strategies for supporting healthy sleep in
+children and for themselves. As suggested by the parents who participated in this
+study, the BNBD intervention could support healthy sleep during the COVID-19
+pandemic. Future interventions should provide strategies to help children sleep
+better which may promote resilience in the face of disruption during the COVID-19
+pandemic, and potentially help families be better able to thrive, rather than just
+survive, during these challenging times.</p></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material id="sup1" position="float" content-type="local-data" orientation="portrait"><label>jsab075_Supplementary_Data</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jsab075_supplementary_data.zip" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ack1"><title>Acknowledgments</title><p>The authors would like to thank Sydney Dale-McGrath for her support in completing
+this study, as well as Jane Girgulis, Sarah Keating, and Chelsea Fenwick for their
+assistance with transcribing the qualitative interviews. We thank Kids Brain Health
+Network, a Canadian Networks Centres of Excellent, for their support of BNBD, as
+well as the families who participated in this work.</p><sec><title>Funding</title><p>The Better Nights Better Days RCT was supported by the Canadian Institutes of
+Health Research (CIHR) Sleep and Circadian Rhythms Team Grant (FRN-TGS 109221).
+E.K. was supported by a CIHR postdoctoral fellowship (FRN-CSR 164784). N.E.M. is
+supported by awards from the Maritime SPOR Support Unit, Research Nova Scotia,
+Killam Trust, and a Nova Scotia Graduate Scholarship.</p><p><italic toggle="yes">Conflicts of interest</italic>: None declared.</p></sec></ack><ref-list id="ref1"><title>References</title><ref id="jsab075-B1"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Altena</surname><given-names>E.</given-names></string-name><string-name name-style="western"><surname>Baglioni</surname><given-names>C.</given-names></string-name><string-name name-style="western"><surname>Espie</surname><given-names>C.
+A.</given-names></string-name><string-name name-style="western"><surname>Ellis</surname><given-names>J.</given-names></string-name><string-name name-style="western"><surname>Gavriloff</surname><given-names>D.</given-names></string-name><string-name name-style="western"><surname>Holzinger</surname><given-names>B.</given-names></string-name><string-name name-style="western"><surname>Schlarb</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Frase</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>Jernelov</surname><given-names>S.</given-names></string-name>,
+<string-name name-style="western"><surname>Riemann</surname><given-names>D.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>Dealing with sleep problems during home
+confinement due to the COVID-19 outbreak: practical recommendations from a
+task force of the European CBT-I Academy</article-title>. <source>Journal of
+Sleep Research</source>, <volume>29</volume>, <fpage>e13052</fpage>.<pub-id pub-id-type="doi">10.1111/jsr.13052</pub-id><pub-id pub-id-type="pmid">32246787</pub-id></mixed-citation></ref><ref id="jsab075-B2"><mixed-citation publication-type="book">American Academy of Sleep Medicine
+(<year>2014</year>). <source>International classification of sleep
+disorders</source> (3rd edn). <publisher-name>American Academy of Sleep
+Medicine</publisher-name>.</mixed-citation></ref><ref id="jsab075-B51"><mixed-citation publication-type="other">Braun, V., &amp; Clarke, V. (2012).
+Thematic analysis. In H. Cooper, P. M. Camic, D. L. Long, A. T. Panter, D.
+Rindskopf, &amp; K. J. Sher (Eds.), <italic toggle="yes">APA handbook of research methods
+in psychology, Vol. 2. Research designs: Quantitative, qualitative,
+neuropsychological, and biological</italic> (pp. 57&#8211;71). American
+Psychological Association. https://doi.org/10.1037/13620-004.</mixed-citation></ref><ref id="jsab075-B3"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Brooks</surname><given-names>S.
+K.</given-names></string-name><string-name name-style="western"><surname>Webster</surname><given-names>R.
+K.</given-names></string-name><string-name name-style="western"><surname>Smith</surname><given-names>L.
+E.</given-names></string-name><string-name name-style="western"><surname>Woodland</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>Wessely</surname><given-names>S.</given-names></string-name><string-name name-style="western"><surname>Greenberg</surname><given-names>N.</given-names></string-name>,
+<string-name name-style="western"><surname>Rubin</surname><given-names>G.
+J.</given-names></string-name></person-group> (<year>2020</year>).
+<article-title>The psychological impact of quarantine and how to reduce it:
+rapid review of the evidence</article-title>. <source>The Lancet</source>,
+<volume>395</volume>, <fpage>912</fpage>&#8211;<lpage>920</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(20)30460-8</pub-id><pub-id pub-id-type="pmcid">PMC7158942</pub-id><pub-id pub-id-type="pmid">32112714</pub-id></mixed-citation></ref><ref id="jsab075-B4"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Bruni</surname><given-names>O.</given-names></string-name><string-name name-style="western"><surname>Ottaviano</surname><given-names>S.</given-names></string-name><string-name name-style="western"><surname>Guidetti</surname><given-names>V.</given-names></string-name><string-name name-style="western"><surname>Romoli</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Innocenzi</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Cortesi</surname><given-names>F.</given-names></string-name>,
+<string-name name-style="western"><surname>Giannotti</surname><given-names>F.</given-names></string-name></person-group>
+(<year>1996</year>). <article-title>The Sleep Disturbance Scale for Children
+(SDSC) Construct ion and validation of an instrument to evaluate sleep
+disturbances in childhood and adolescence</article-title>. <source>Journal
+of Sleep Research</source>, <volume>5</volume>,
+<fpage>251</fpage>&#8211;<lpage>261</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2869.1996.00251.x</pub-id><pub-id pub-id-type="pmid">9065877</pub-id></mixed-citation></ref><ref id="jsab075-B5"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name name-style="western"><surname>Bush</surname><given-names>K.</given-names></string-name><string-name name-style="western"><surname>Price</surname><given-names>C.</given-names></string-name><string-name name-style="western"><surname>Price</surname><given-names>S.</given-names></string-name>,
+<string-name name-style="western"><surname>McKenry
+(Posthumously)</surname><given-names>P.</given-names></string-name></person-group>
+(<year>2016</year>). <part-title>Families coping with change: a
+conceptual overview</part-title>. In <person-group person-group-type="editor"><string-name name-style="western"><surname>Price</surname><given-names>C.</given-names></string-name><string-name name-style="western"><surname>Bush</surname><given-names>K.</given-names></string-name>,
+<string-name name-style="western"><surname>Price</surname><given-names>S.</given-names></string-name></person-group>
+(Eds.), <source>Families and change: Coping with stressful events and
+transitions</source> (<edition>5th edn</edition>). <publisher-name>SAGE
+Publications</publisher-name>.</mixed-citation></ref><ref id="jsab075-B6"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Cellini</surname><given-names>N.,</given-names></string-name><string-name name-style="western"><surname>Canale</surname><given-names>N.,</given-names></string-name><string-name name-style="western"><surname>Mioni</surname><given-names>G.</given-names></string-name>,
+<string-name name-style="western"><surname>Costa,</surname><given-names>S.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>Changes in sleep pattern, sense of time
+and digital media use during COVID-19 lockdown in Italy</article-title>.
+<source>Journal of Sleep Research</source>,
+<volume>29</volume>(<issue>4</issue>), e13074. <pub-id pub-id-type="doi">10.1111/jsr.13074</pub-id><pub-id pub-id-type="pmcid">PMC7235482</pub-id><pub-id pub-id-type="pmid">32410272</pub-id></mixed-citation></ref><ref id="jsab075-B7"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Chan</surname><given-names>A. D.
+F.</given-names></string-name><string-name name-style="western"><surname>Reid</surname><given-names>G.
+J.</given-names></string-name><string-name name-style="western"><surname>Farvolden</surname><given-names>P.</given-names></string-name><string-name name-style="western"><surname>Deane</surname><given-names>M.
+L.</given-names></string-name>, <string-name name-style="western"><surname>Bisaillon</surname><given-names>S.</given-names></string-name></person-group>
+(<year>2003</year>). <article-title>Learning needs of patients with
+congestive heart failure</article-title>. <source>The Canadian Journal of
+Cardiology</source>, <volume>19</volume>,
+<fpage>413</fpage>&#8211;<lpage>417</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.onlinecjc.ca/" ext-link-type="uri">https://pubmed.ncbi.nlm.nih.gov/12704489/</ext-link><pub-id pub-id-type="pmid">12704489</pub-id></mixed-citation></ref><ref id="jsab075-B8"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Coldwell</surname><given-names>J.</given-names></string-name><string-name name-style="western"><surname>Pike</surname><given-names>A.</given-names></string-name>,
+<string-name name-style="western"><surname>Dunn</surname><given-names>J.</given-names></string-name></person-group>
+(<year>2006</year>). <article-title>Household chaos&#8212;links with
+parenting and child behaviour</article-title>. <source>Journal of Child
+Psychology and Psychiatry</source>, <volume>47</volume>,
+<fpage>1116</fpage>&#8211;<lpage>1122</lpage>. <pub-id pub-id-type="doi">10.1111/j.1469-7610.2006.01655.x</pub-id><pub-id pub-id-type="pmid">17076750</pub-id></mixed-citation></ref><ref id="jsab075-B9"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Corkum</surname><given-names>P.
+V.</given-names></string-name><string-name name-style="western"><surname>Reid</surname><given-names>G.
+J.</given-names></string-name><string-name name-style="western"><surname>Hall</surname><given-names>W.
+A.</given-names></string-name><string-name name-style="western"><surname>Godbout</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Stremler</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Weiss</surname><given-names>S.
+K.</given-names></string-name><string-name name-style="western"><surname>Gruber</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Witmans</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Chambers</surname><given-names>C.
+T.</given-names></string-name><string-name name-style="western"><surname>Begum</surname><given-names>E.
+A.</given-names></string-name><string-name name-style="western"><surname>Andreou</surname><given-names>P.</given-names></string-name>,
+<string-name name-style="western"><surname>Rigney</surname><given-names>G.</given-names></string-name></person-group>
+(<year>2018</year>). <article-title>Evaluation of an internet-based
+behavioral intervention to improve psychosocial health outcomes in children
+with insomnia (better nights, better days): Protocol for a randomized
+controlled trial</article-title>. <source>JMIR Research Protocols</source>,
+<volume>7</volume>, <fpage>e76</fpage>.<pub-id pub-id-type="doi">10.2196/resprot.8348</pub-id><pub-id pub-id-type="pmid">29581089</pub-id><pub-id pub-id-type="pmcid">PMC5891669</pub-id></mixed-citation></ref><ref id="jsab075-B10"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Cortese</surname><given-names>S.</given-names></string-name><string-name name-style="western"><surname>Asherson</surname><given-names>P.</given-names></string-name><string-name name-style="western"><surname>Sonuga-Barke</surname><given-names>E.</given-names></string-name><string-name name-style="western"><surname>Banaschewski</surname><given-names>T.</given-names></string-name><string-name name-style="western"><surname>Brandeis</surname><given-names>D.</given-names></string-name><string-name name-style="western"><surname>Buitelaar</surname><given-names>J.</given-names></string-name><string-name name-style="western"><surname>Coghill</surname><given-names>D.</given-names></string-name><string-name name-style="western"><surname>Daley</surname><given-names>D.</given-names></string-name><string-name name-style="western"><surname>Danckaerts</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Dittmann</surname><given-names>R.
+W.</given-names></string-name><string-name name-style="western"><surname>Doepfner</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Ferrin</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Hollis</surname><given-names>C.</given-names></string-name><string-name name-style="western"><surname>Holtmann</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Konofal</surname><given-names>E.</given-names></string-name><string-name name-style="western"><surname>Lecendreux</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Santosh</surname><given-names>P.</given-names></string-name><string-name name-style="western"><surname>Rothenberger</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Soutullo</surname><given-names>C.</given-names></string-name><string-name name-style="western"><surname>Simonoff</surname><given-names>E.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>ADHD management during the COVID-19
+pandemic: Guidance from the European ADHD Guidelines Group</article-title>.
+<source>The Lancet Child &amp; Adolescent Health</source>,
+<volume>4</volume>, <fpage>412</fpage>&#8211;<lpage>414</lpage>. <pub-id pub-id-type="doi">10.1016/S2352-4642(20)30110-3</pub-id><pub-id pub-id-type="pmid">32311314</pub-id><pub-id pub-id-type="pmcid">PMC7164889</pub-id></mixed-citation></ref><ref id="jsab075-B11"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name name-style="western"><surname>Creswell</surname><given-names>J.
+W.</given-names></string-name>, <string-name name-style="western"><surname>Plano Clark</surname><given-names>V.
+L.</given-names></string-name></person-group> (<year>2017</year>).
+<source>Designing and Conducting Mixed Methods Research (3rd edn)</source>.
+<publisher-name>SAGE Publications</publisher-name>.</mixed-citation></ref><ref id="jsab075-B12"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Dellagiulia</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Lionetti</surname><given-names>F.</given-names></string-name><string-name name-style="western"><surname>Fasolo</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Verderame</surname><given-names>C.</given-names></string-name><string-name name-style="western"><surname>Sperati</surname><given-names>A.</given-names></string-name>,
+<string-name name-style="western"><surname>Alessandri</surname><given-names>G.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>Early impact of COVID-19 lockdown on
+children&#8217;s sleep: a four-week longitudinal study</article-title>.
+<source>Journal of Clinical Sleep Medicine</source>, <volume>16</volume>,
+<fpage>1639</fpage>&#8211;<lpage>1640</lpage>. <pub-id pub-id-type="doi">10.5664/jcsm.8648</pub-id><pub-id pub-id-type="pmid">32620188</pub-id><pub-id pub-id-type="pmcid">PMC7970607</pub-id></mixed-citation></ref><ref id="jsab075-B13"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Donovan</surname><given-names>K.
+A.</given-names></string-name><string-name name-style="western"><surname>Grassi</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>McGinty</surname><given-names>H.
+L.</given-names></string-name>, <string-name name-style="western"><surname>Jacobsen</surname><given-names>P.
+B.</given-names></string-name></person-group> (<year>2014</year>).
+<article-title>Validation of the distress thermometer worldwide: state of
+the science</article-title>. <source>Psycho-oncology</source>,
+<volume>23</volume>, <fpage>241</fpage>&#8211;<lpage>250</lpage>. <pub-id pub-id-type="doi">10.1002/pon.3430</pub-id><pub-id pub-id-type="pmid">25160838</pub-id></mixed-citation></ref><ref id="jsab075-B14"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Douglas</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Katikireddi</surname><given-names>S.
+V.</given-names></string-name><string-name name-style="western"><surname>Taulbut</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>McKee</surname><given-names>M.</given-names></string-name>,
+<string-name name-style="western"><surname>McCartney</surname><given-names>G.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>Mitigating the wider health effects of
+covid-19 pandemic response</article-title>. <source>BMJ</source>,
+<volume>369</volume>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://m1557" ext-link-type="uri">m1557</ext-link>. <pub-id pub-id-type="doi">10.1136/bmj.m1557</pub-id><pub-id pub-id-type="pmcid">PMC7184317</pub-id><pub-id pub-id-type="pmid">32341002</pub-id></mixed-citation></ref><ref id="jsab075-B15"><mixed-citation publication-type="other"><person-group person-group-type="author"><string-name name-style="western"><surname>Dozois</surname><given-names>D. J.
+A.</given-names></string-name></person-group> (<year>2020</year>).
+Anxiety and depression in Canada during the COVID-19 pandemic: A national
+survey. <italic toggle="yes">Canadian Psychology</italic>, <italic toggle="yes">62</italic>,
+136&#8211;142. <pub-id pub-id-type="doi">10.1037/cap0000251</pub-id></mixed-citation></ref><ref id="jsab075-B16"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Duan</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>Shao</surname><given-names>X.</given-names></string-name><string-name name-style="western"><surname>Wang</surname><given-names>Y.</given-names></string-name><string-name name-style="western"><surname>Huang</surname><given-names>Y.</given-names></string-name><string-name name-style="western"><surname>Miao</surname><given-names>J.</given-names></string-name><string-name name-style="western"><surname>Yang</surname><given-names>X.</given-names></string-name>,
+<string-name name-style="western"><surname>Zhu</surname><given-names>G.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>An investigation of mental health status
+of children and adolescents in china during the outbreak of
+COVID-19</article-title>. <source>Journal of Affective Disorders</source>,
+<volume>275</volume>, <fpage>112</fpage>&#8211;<lpage>118</lpage>. <pub-id pub-id-type="doi">10.1016/j.jad.2020.06.029</pub-id><pub-id pub-id-type="pmid">32658812</pub-id><pub-id pub-id-type="pmcid">PMC7329661</pub-id></mixed-citation></ref><ref id="jsab075-B17"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Dubois-Comtois</surname><given-names>K.</given-names></string-name><string-name name-style="western"><surname>Pennestri</surname><given-names>M.-H.</given-names></string-name><string-name name-style="western"><surname>Bernier</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Cyr</surname><given-names>C.</given-names></string-name>,
+<string-name name-style="western"><surname>Godbout</surname><given-names>R.</given-names></string-name></person-group>
+(<year>2019</year>). <article-title>Family environment and
+preschoolers&#8217; sleep: the complementary role of both
+parents</article-title>. <source>Sleep Medicine</source>,
+<volume>58</volume>, <fpage>114</fpage>&#8211;<lpage>122</lpage>. <pub-id pub-id-type="doi">10.1016/j.sleep.2019.03.002</pub-id><pub-id pub-id-type="pmid">31146123</pub-id></mixed-citation></ref><ref id="jsab075-B18"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Grossman</surname><given-names>E.
+S.</given-names></string-name><string-name name-style="western"><surname>Hoffman</surname><given-names>Y.
+S. G.</given-names></string-name><string-name name-style="western"><surname>Palgi</surname><given-names>Y.</given-names></string-name>,
+<string-name name-style="western"><surname>Shrira</surname><given-names>A.</given-names></string-name></person-group>
+(<year>2021</year>). <article-title>COVID-19 related loneliness and sleep
+problems in older adults: Worries and resilience as potential
+moderators</article-title>. <source>Personality and Individual
+Differences</source>, <volume>168</volume>, <fpage>110371</fpage>.<pub-id pub-id-type="doi">10.1016/j.paid.2020.110371</pub-id><pub-id pub-id-type="pmid">32904342</pub-id><pub-id pub-id-type="pmcid">PMC7455172</pub-id></mixed-citation></ref><ref id="jsab075-B19"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Guadagni</surname><given-names>V.</given-names></string-name><string-name name-style="western"><surname>Umilta&#8217;</surname><given-names>A.</given-names></string-name>,
+<string-name name-style="western"><surname>Iaria</surname><given-names>G.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>Sleep quality, empathy, and mood during
+the isolation period of the COVID-19 pandemic in the Canadian population:
+Females and women suffered the most</article-title>. <source>Frontiers in
+Global Women&#8217;s Health</source>, <volume>1</volume>,
+<fpage>13</fpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.frontiersin.org/article/10.3389/fgwh.2020.585938" ext-link-type="uri">https://www.frontiersin.org/article/10.3389/fgwh.2020.585938</ext-link><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fgwh.2020.585938</pub-id><pub-id pub-id-type="pmcid">PMC8593942</pub-id><pub-id pub-id-type="pmid">34816161</pub-id></mixed-citation></ref><ref id="jsab075-B21"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Harris</surname><given-names>P.
+A.</given-names></string-name><string-name name-style="western"><surname>Taylor</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Minor</surname><given-names>B.
+L.</given-names></string-name><string-name name-style="western"><surname>Elliott</surname><given-names>V.</given-names></string-name><string-name name-style="western"><surname>Fernandez</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>O'Neal</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>McLeod</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>Delacqua</surname><given-names>G.</given-names></string-name><string-name name-style="western"><surname>Delacqua</surname><given-names>F.</given-names></string-name><string-name name-style="western"><surname>Kirby</surname><given-names>J.</given-names></string-name>,
+<string-name name-style="western"><surname>Duda</surname><given-names>S.
+N.</given-names></string-name></person-group> (<year>2019</year>).
+<article-title>The REDCap consortium: building an international community of
+software platform partners</article-title>. <source>Journal of Biomedical
+Informatics</source>, <volume>95</volume>, <fpage>103208</fpage>.<pub-id pub-id-type="doi">10.1016/j.jbi.2019.103208</pub-id><pub-id pub-id-type="pmid">31078660</pub-id><pub-id pub-id-type="pmcid">PMC7254481</pub-id></mixed-citation></ref><ref id="jsab075-B22"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Harris</surname><given-names>P.
+A.</given-names></string-name><string-name name-style="western"><surname>Taylor</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Thielke</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Payne</surname><given-names>J.</given-names></string-name><string-name name-style="western"><surname>Gonzalez</surname><given-names>N.</given-names></string-name>,
+<string-name name-style="western"><surname>Conde</surname><given-names>J.
+G.</given-names></string-name></person-group> (<year>2009</year>).
+<article-title>Research electronic data capture (REDCap)&#8212;A
+metadata-driven methodology and workflow process for providing translational
+research informatics support</article-title>. <source>Journal of Biomedical
+Informatics</source>, <volume>42</volume>,
+<fpage>377</fpage>&#8211;<lpage>381</lpage>. <pub-id pub-id-type="doi">10.1016/j.jbi.2008.08.010</pub-id><pub-id pub-id-type="pmid">18929686</pub-id><pub-id pub-id-type="pmcid">PMC2700030</pub-id></mixed-citation></ref><ref id="jsab075-B23"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Henderson</surname><given-names>J.
+A.</given-names></string-name>, <string-name name-style="western"><surname>Jordan</surname><given-names>S.
+S.</given-names></string-name></person-group> (<year>2010</year>).
+<article-title>Development and preliminary evaluation of the bedtime
+routines questionnaire</article-title>. <source>Journal of Psychopathology
+and Behavioral Assessment</source>, <volume>32</volume>,
+<fpage>271</fpage>&#8211;<lpage>280</lpage>. <pub-id pub-id-type="doi">10.1007/s10862-009-9143-3</pub-id></mixed-citation></ref><ref id="jsab075-B24"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Kutana</surname><given-names>S.</given-names></string-name>,
+<string-name name-style="western"><surname>Lau</surname><given-names>P.
+H.</given-names></string-name></person-group> (<year>2020</year>).
+<article-title>The impact of the 2019 coronavirus disease (COVID-19)
+pandemic on sleep health</article-title>. <source>Canadian
+Psychology</source>, <volume>62</volume>,
+<fpage>12</fpage>&#8211;<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1037/cap0000256</pub-id></mixed-citation></ref><ref id="jsab075-B25"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>L&#233;ger</surname><given-names>D.</given-names></string-name><string-name name-style="western"><surname>Beck</surname><given-names>F.</given-names></string-name><string-name name-style="western"><surname>Fressard</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>Verger</surname><given-names>P.</given-names></string-name><string-name name-style="western"><surname>Peretti-Watel</surname><given-names>P.</given-names></string-name><string-name name-style="western"><surname>Peretti-Watel</surname><given-names>P.</given-names></string-name><string-name name-style="western"><surname>Seror</surname><given-names>V.</given-names></string-name><string-name name-style="western"><surname>Cortaredona</surname><given-names>S.</given-names></string-name><string-name name-style="western"><surname>Fressard</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>Launay</surname><given-names>O.</given-names></string-name><string-name name-style="western"><surname>Raude</surname><given-names>J.</given-names></string-name><string-name name-style="western"><surname>Verger</surname><given-names>P.</given-names></string-name><string-name name-style="western"><surname>Beck</surname><given-names>F.</given-names></string-name><string-name name-style="western"><surname>Legleye</surname><given-names>S.</given-names></string-name><string-name name-style="western"><surname>L&#8217;Haridon</surname><given-names>O.</given-names></string-name><string-name name-style="western"><surname>Ward</surname><given-names>J.</given-names></string-name>,
+<string-name name-style="western"><surname>L&#233;ger</surname><given-names>D.;</given-names></string-name></person-group>
+COCONEL Group (<year>2020</year>). <article-title>Poor sleep associated with
+overuse of media during the COVID-19 lockdown</article-title>.
+<source>Sleep</source>, <volume>43</volume>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://zsaa125" ext-link-type="uri">zsaa125</ext-link>. <pub-id pub-id-type="doi">10.1093/sleep/zsaa125</pub-id><pub-id pub-id-type="pmcid">PMC7454849</pub-id><pub-id pub-id-type="pmid">32710627</pub-id></mixed-citation></ref><ref id="jsab075-B26"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Liu</surname><given-names>Z.</given-names></string-name><string-name name-style="western"><surname>Tang</surname><given-names>H.</given-names></string-name><string-name name-style="western"><surname>Jin</surname><given-names>Q.</given-names></string-name><string-name name-style="western"><surname>Wang</surname><given-names>G.</given-names></string-name><string-name name-style="western"><surname>Yang</surname><given-names>Z.</given-names></string-name><string-name name-style="western"><surname>Chen</surname><given-names>H.</given-names></string-name><string-name name-style="western"><surname>Yan</surname><given-names>H.</given-names></string-name><string-name name-style="western"><surname>Rao</surname><given-names>W.</given-names></string-name>,
+<string-name name-style="western"><surname>Owens</surname><given-names>J.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>Sleep of preschoolers during the
+coronavirus disease 2019 (COVID-19) outbreak</article-title>.
+<source>Journal of Sleep Research</source>, <volume>30</volume>,
+<fpage>e13142</fpage>. <pub-id pub-id-type="doi">10.1111/jsr.13142</pub-id><pub-id pub-id-type="pmid">32716566</pub-id></mixed-citation></ref><ref id="jsab075-B27"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Marques de
+Miranda</surname><given-names>D.</given-names></string-name><string-name name-style="western"><surname>da Silva
+Athanasio</surname><given-names>B.</given-names></string-name><string-name name-style="western"><surname>Sena
+Oliveira</surname><given-names>A. C.</given-names></string-name>,
+<string-name name-style="western"><surname>Simoes-e-Silva</surname><given-names>A.
+C.</given-names></string-name></person-group> (<year>2020</year>).
+<article-title>How is COVID-19 pandemic impacting mental health of children
+and adolescents?</article-title><source>International Journal of Disaster Risk Reduction</source>,
+<volume>51</volume>, <fpage>101845</fpage>.<pub-id pub-id-type="doi">10.1016/j.ijdrr.2020.101845</pub-id><pub-id pub-id-type="pmid">32929399</pub-id><pub-id pub-id-type="pmcid">PMC7481176</pub-id></mixed-citation></ref><ref id="jsab075-B28"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name name-style="western"><surname>McCubbin</surname><given-names>H.</given-names></string-name>,
+<string-name name-style="western"><surname>Patterson</surname><given-names>J.</given-names></string-name></person-group>
+(<year>1982</year>). <part-title>Family adaptation to
+crises</part-title>. In <person-group person-group-type="editor"><string-name name-style="western"><surname>McCubbin</surname><given-names>H.</given-names></string-name><string-name name-style="western"><surname>Cauble</surname><given-names>A.</given-names></string-name>,
+<string-name name-style="western"><surname>Patterson</surname><given-names>J.</given-names></string-name></person-group>
+(Eds.), <source>Family Stress, Coping and Social Support</source> (pp.
+<fpage>26</fpage>&#8211;<lpage>47</lpage>).
+<publisher-name>Thomas</publisher-name>.</mixed-citation></ref><ref id="jsab075-B29"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Meltzer</surname><given-names>L.
+J.</given-names></string-name>, <string-name name-style="western"><surname>Montgomery-Downs</surname><given-names>H.
+E.</given-names></string-name></person-group> (<year>2011</year>).
+<article-title>Sleep in the family</article-title>. <source>Pediatric
+Clinics of North America</source>, <volume>58</volume>,
+<fpage>765</fpage>&#8211;<lpage>774</lpage>. <pub-id pub-id-type="doi">10.1016/j.pcl.2011.03.010</pub-id><pub-id pub-id-type="pmid">21600354</pub-id><pub-id pub-id-type="pmcid">PMC3100541</pub-id></mixed-citation></ref><ref id="jsab075-B30"><mixed-citation publication-type="other"><person-group person-group-type="author"><string-name name-style="western"><surname>Mindell</surname><given-names>J.
+A.</given-names></string-name><string-name name-style="western"><surname>Kuhn</surname><given-names>B.</given-names></string-name><string-name name-style="western"><surname>Lewin</surname><given-names>D.
+S.</given-names></string-name><string-name name-style="western"><surname>Meltzer</surname><given-names>L.
+J.</given-names></string-name>, <string-name name-style="western"><surname>Sadeh</surname><given-names>A.</given-names></string-name></person-group>
+(<year>2006</year>). &#8220;Behavioral treatment of bedtime problems and
+night wakings in infants and young children&#8221;: Erratum. In <italic toggle="yes">Sleep:
+Journal of Sleep and Sleep Disorders Research, 29</italic>,
+1263&#8211;1276. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://aasm.org/resources/practiceparameters/review_nightwakingschildren.pdf" ext-link-type="uri">https://aasm.org/resources/practiceparameters/review_nightwakingschildren.pdf
+Retrieved 30 June 2020.</ext-link><pub-id pub-id-type="pmid">17068979</pub-id></mixed-citation></ref><ref id="jsab075-B31"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Moore</surname><given-names>S.
+A.</given-names></string-name><string-name name-style="western"><surname>Faulkner</surname><given-names>G.</given-names></string-name><string-name name-style="western"><surname>Rhodes</surname><given-names>R.
+E.</given-names></string-name><string-name name-style="western"><surname>Brussoni</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Chulak-Bozzer</surname><given-names>T.</given-names></string-name><string-name name-style="western"><surname>Ferguson</surname><given-names>L.
+J.</given-names></string-name><string-name name-style="western"><surname>Mitra</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>O&#8217;Reilly</surname><given-names>N.</given-names></string-name><string-name name-style="western"><surname>Spence</surname><given-names>J.
+C.</given-names></string-name><string-name name-style="western"><surname>Vanderloo</surname><given-names>L.
+M.</given-names></string-name>, <string-name name-style="western"><surname>Tremblay</surname><given-names>M.
+S.</given-names></string-name></person-group> (<year>2020</year>).
+<article-title>Impact of the COVID-19 virus outbreak on movement and play
+behaviours of Canadian children and youth: a national
+survey</article-title>. <source>International Journal of Behavioral Nutrition
+and Physical Activity</source>, <volume>17</volume>(<issue>1</issue>),
+<fpage>85</fpage>.<pub-id pub-id-type="doi">10.1186/s12966-020-00987-8</pub-id><pub-id pub-id-type="pmcid">PMC7336091</pub-id><pub-id pub-id-type="pmid">32631350</pub-id></mixed-citation></ref><ref id="jsab075-B32"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Morin</surname><given-names>C.</given-names></string-name><string-name name-style="western"><surname>Carrier</surname><given-names>J.</given-names></string-name><string-name name-style="western"><surname>Bastien</surname><given-names>C.</given-names></string-name>,
+<string-name name-style="western"><surname>Godbout</surname><given-names>R.;</given-names></string-name></person-group>
+On behalf of the Canadian Sleep and Circadian Network (<year>2020</year>).
+<article-title>Sleep and circadian rhythm in response to the COVID-19
+pandemic</article-title>. <source>Canadian Journal of Public</source> ,
+<volume>111</volume>, <fpage>654</fpage>&#8211;<lpage>657</lpage>. <pub-id pub-id-type="doi">10.17269/s41997-020-00382-7</pub-id><pub-id pub-id-type="pmcid">PMC7375451</pub-id><pub-id pub-id-type="pmid">32700231</pub-id></mixed-citation></ref><ref id="jsab075-B33"><mixed-citation publication-type="other">National Comprehensive Cancer Network
+(<year>2020</year>). NCCN Distress Thermometer and Problem List. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.nccn.org/about/permissions/thermometer.aspx" ext-link-type="uri">https://www.nccn.org/about/permissions/thermometer.aspx Retrieved 30 June
+2020.</ext-link><pub-id pub-id-type="doi" assigning-authority="pmc">10.6004/jnccn.2022.0004</pub-id><pub-id pub-id-type="pmid">34991072</pub-id></mixed-citation></ref><ref id="jsab075-B34"><mixed-citation publication-type="journal"><person-group person-group-type="author">, <string-name name-style="western"><surname>Orgil&#233;s,</surname><given-names>M.,</given-names></string-name><string-name name-style="western"><surname>Morales,</surname><given-names>A.,</given-names></string-name><string-name name-style="western"><surname>Delvecchio,</surname><given-names>E.,</given-names></string-name><string-name name-style="western"><surname>Mazzeschi,</surname><given-names>C.</given-names></string-name>,
+<string-name name-style="western"><surname>Espada</surname><given-names>J.
+P.</given-names></string-name></person-group> (<year>2020</year>).
+<article-title>Immediate psychological effects of the COVID-19 quarantine in
+youth from Italy and Spain</article-title>. <source>Frontiers in
+Psychology</source>, <volume>11</volume>, 579038. <pub-id pub-id-type="doi">10.3389/fpsyg.2020.579038</pub-id><pub-id pub-id-type="pmcid">PMC7677301</pub-id><pub-id pub-id-type="pmid">33240167</pub-id></mixed-citation></ref><ref id="jsab075-B35"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Ownby</surname><given-names>K.
+K.</given-names></string-name></person-group> (<year>2019</year>).
+<article-title>Use of the distress thermometer in clinical
+practice</article-title>. <source>Journal of the Advanced Practitioner in
+Oncology</source>, <volume>10</volume>,
+<fpage>175</fpage>&#8211;<lpage>179</lpage>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubmed.ncbi.nlm.nih.gov/31538028" ext-link-type="uri">https://pubmed.ncbi.nlm.nih.gov/31538028</ext-link><pub-id pub-id-type="pmid">31538028</pub-id><pub-id pub-id-type="pmcid">PMC6750919</pub-id></mixed-citation></ref><ref id="jsab075-B36"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Prime</surname><given-names>H.</given-names></string-name><string-name name-style="western"><surname>Wade</surname><given-names>M.</given-names></string-name>,
+<string-name name-style="western"><surname>Browne</surname><given-names>D.
+T.</given-names></string-name></person-group> (<year>2020</year>).
+<article-title>Risk and resilience in family well-being during the COVID-19
+pandemic</article-title>. <source>American Psychologist</source>,
+<volume>75</volume>, <fpage>631</fpage>&#8211;<lpage>643</lpage>. <pub-id pub-id-type="doi">10.1037/amp0000660</pub-id><pub-id pub-id-type="pmid">32437181</pub-id></mixed-citation></ref><ref id="jsab075-B37"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Robillard</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Dion</surname><given-names>K.</given-names></string-name><string-name name-style="western"><surname>Pennestri</surname><given-names>M.-H.</given-names></string-name><string-name name-style="western"><surname>Solomonova</surname><given-names>E.</given-names></string-name><string-name name-style="western"><surname>Lee</surname><given-names>E.</given-names></string-name><string-name name-style="western"><surname>Saad</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Murkar</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Godbout</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Edwards</surname><given-names>J.
+D.</given-names></string-name><string-name name-style="western"><surname>Quilty</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>Daros</surname><given-names>A.
+R.</given-names></string-name><string-name name-style="western"><surname>Bhatla</surname><given-names>R.</given-names></string-name>,
+<string-name name-style="western"><surname>Kendzerska</surname><given-names>T.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>Profiles of sleep changes during the
+COVID-19 pandemic: demographic, behavioural and psychological
+factors</article-title>. <source>Journal of Sleep Research</source>,
+<volume>30</volume>, <fpage>e13231</fpage>. <pub-id pub-id-type="doi">10.1111/jsr.13231</pub-id><pub-id pub-id-type="pmid">33200477</pub-id><pub-id pub-id-type="pmcid">PMC7744844</pub-id></mixed-citation></ref><ref id="jsab075-B38"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Romeo</surname><given-names>D.
+M.</given-names></string-name><string-name name-style="western"><surname>Bruni</surname><given-names>O.</given-names></string-name><string-name name-style="western"><surname>Brogna</surname><given-names>C.</given-names></string-name><string-name name-style="western"><surname>Ferri</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Galluccio</surname><given-names>C.</given-names></string-name><string-name name-style="western"><surname>De
+Clemente</surname><given-names>V.</given-names></string-name><string-name name-style="western"><surname>Di
+Jorio</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Quintiliani</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Ricci</surname><given-names>D.</given-names></string-name>,
+<string-name name-style="western"><surname>Mercuri</surname><given-names>E.</given-names></string-name></person-group>
+(<year>2013</year>). <article-title>Application of the sleep disturbance
+scale for children (SDSC) in preschool age</article-title>. <source>European
+Journal of Paediatric Neurology</source>, <volume>17</volume>,
+<fpage>374</fpage>&#8211;<lpage>382</lpage>. <pub-id pub-id-type="doi">10.1016/j.ejpn.2012.12.009</pub-id><pub-id pub-id-type="pmid">23352289</pub-id></mixed-citation></ref><ref id="jsab075-B40"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Staller</surname><given-names>N.</given-names></string-name>,
+<string-name name-style="western"><surname>Randler</surname><given-names>C.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>Changes in sleep schedule and chronotype
+due to COVID-19 restrictions and home office</article-title>.
+<source>Somnology</source>, <volume>25</volume>,
+<fpage>1</fpage>&#8211;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1007/s11818-020-00277-2</pub-id><pub-id pub-id-type="pmcid">PMC7670483</pub-id><pub-id pub-id-type="pmid">33223953</pub-id></mixed-citation></ref><ref id="jsab075-B41"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Varma</surname><given-names>P.</given-names></string-name><string-name name-style="western"><surname>Conduit</surname><given-names>R.</given-names></string-name><string-name name-style="western"><surname>Junge</surname><given-names>M.</given-names></string-name>,
+<string-name name-style="western"><surname>Jackson</surname><given-names>M.
+L.</given-names></string-name></person-group> (<year>2020</year>).
+<article-title>Examining sleep and mood in parents of children with sleep
+disturbances</article-title>. <source>Nature and Science of Sleep</source>,
+<volume>12</volume>, <fpage>865</fpage>&#8211;<lpage>874</lpage>. <pub-id pub-id-type="doi">10.2147/NSS.S271140</pub-id><pub-id pub-id-type="pmcid">PMC7608549</pub-id><pub-id pub-id-type="pmid">33154690</pub-id></mixed-citation></ref><ref id="jsab075-B42"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Varni</surname><given-names>J.
+W.</given-names></string-name><string-name name-style="western"><surname>Seid</surname><given-names>M.</given-names></string-name>,
+<string-name name-style="western"><surname>Rode</surname><given-names>C.
+A.</given-names></string-name></person-group> (<year>1999</year>).
+<article-title>The PedsQL: measurement model for the pediatric quality of
+life inventory</article-title>. <source>Medical Care</source>,
+<volume>37</volume>, <fpage>126</fpage>&#8211;<lpage>139</lpage>. <pub-id pub-id-type="doi">10.1097/00005650-199902000-00003</pub-id><pub-id pub-id-type="pmid">10024117</pub-id></mixed-citation></ref><ref id="jsab075-B43"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>von
+Elm</surname><given-names>E.</given-names></string-name><string-name name-style="western"><surname>Altman</surname><given-names>D.
+G.</given-names></string-name><string-name name-style="western"><surname>Egger</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Pocock</surname><given-names>S.
+J.</given-names></string-name><string-name name-style="western"><surname>G&#248;tzsche</surname><given-names>P.
+C.</given-names></string-name>, <string-name name-style="western"><surname>Vandenbroucke</surname><given-names>J.
+P.</given-names></string-name></person-group>, STROBE Initiative
+(<year>2007</year>). <article-title>The Strengthening the Reporting of
+Observational Studies in Epidemiology (STROBE) statement: guidelines for
+reporting observational studies</article-title>. <source>PLoS
+Medicine</source>, <volume>4</volume>, <fpage>e296</fpage>.<pub-id pub-id-type="doi">10.1371/journal.pmed.0040296</pub-id><pub-id pub-id-type="pmid">17941714</pub-id><pub-id pub-id-type="pmcid">PMC2020495</pub-id></mixed-citation></ref><ref id="jsab075-B44"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Wakefield</surname><given-names>J. R.
+H.</given-names></string-name><string-name name-style="western"><surname>Bowe</surname><given-names>M.</given-names></string-name><string-name name-style="western"><surname>Kellezi</surname><given-names>B.</given-names></string-name><string-name name-style="western"><surname>Butcher</surname><given-names>A.</given-names></string-name>,
+<string-name name-style="western"><surname>Groeger</surname><given-names>J.
+A.</given-names></string-name></person-group> (<year>2020</year>).
+<article-title>Longitudinal associations between family identification,
+loneliness, depression, and sleep quality</article-title>. <source>British
+Journal of Health Psychology</source>,
+<volume>25</volume>(<issue>1</issue>),
+<fpage>1</fpage>&#8211;<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1111/bjhp.12391</pub-id><pub-id pub-id-type="pmid">31609514</pub-id></mixed-citation></ref><ref id="jsab075-B45"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Waldfogel</surname><given-names>J.</given-names></string-name><string-name name-style="western"><surname>Craigie</surname><given-names>T.-A.</given-names></string-name>,
+<string-name name-style="western"><surname>Brooks-Gunn</surname><given-names>J.</given-names></string-name></person-group>
+(<year>2010</year>). <article-title>Fragile families and child
+wellbeing</article-title>. <source>The Future of Children</source>,
+<volume>20</volume>, <fpage>87</fpage>&#8211;<lpage>112</lpage>. <pub-id pub-id-type="doi">10.1353/foc.2010.0002</pub-id><pub-id pub-id-type="pmid">20964133</pub-id><pub-id pub-id-type="pmcid">PMC3074431</pub-id></mixed-citation></ref><ref id="jsab075-B46"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Wang</surname><given-names>G.</given-names></string-name><string-name name-style="western"><surname>Zhang</surname><given-names>Y.</given-names></string-name><string-name name-style="western"><surname>Zhao</surname><given-names>J.</given-names></string-name><string-name name-style="western"><surname>Zhang</surname><given-names>J.</given-names></string-name>,
+<string-name name-style="western"><surname>Jiang</surname><given-names>F.</given-names></string-name></person-group>
+(<year>2020</year>). <article-title>Mitigate the effects of home confinement
+on children during the COVID-19 outbreak</article-title>. <source>The
+Lancet</source>, <volume>395</volume>,
+<fpage>945</fpage>&#8211;<lpage>947</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(20)30547-X</pub-id><pub-id pub-id-type="pmcid">PMC7124694</pub-id><pub-id pub-id-type="pmid">32145186</pub-id></mixed-citation></ref><ref id="jsab075-B47"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name name-style="western"><surname>Weber</surname><given-names>J.
+G.</given-names></string-name></person-group> (<year>2011</year>).
+<part-title>Individual and family stress and crises</part-title>. In
+<source>Individual and Family Stress and Crises</source> (pp.
+<fpage>82</fpage>&#8211;<lpage>96</lpage>). <publisher-name>SAGE
+Publications</publisher-name>. <pub-id pub-id-type="doi">10.4135/9781452274720.n4</pub-id></mixed-citation></ref><ref id="jsab075-B48"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Williamson</surname><given-names>A.
+A.</given-names></string-name><string-name name-style="western"><surname>Mindell</surname><given-names>J.
+A.</given-names></string-name><string-name name-style="western"><surname>Hiscock</surname><given-names>H.</given-names></string-name>,
+<string-name name-style="western"><surname>Quach</surname><given-names>J.</given-names></string-name></person-group>
+(<year>2019</year>). <article-title>Child sleep behaviors and sleep problems
+from infancy to school-age</article-title>. <source>Sleep Medicine</source>,
+<volume>63</volume>, <fpage>5</fpage>&#8211;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1016/j.sleep.2019.05.003</pub-id><pub-id pub-id-type="pmid">31600659</pub-id><pub-id pub-id-type="pmcid">PMC6859188</pub-id></mixed-citation></ref><ref id="jsab075-B49"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Witt</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Ord&#243;&#241;ez</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Martin</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Vitiello</surname><given-names>B.</given-names></string-name>,
+<string-name name-style="western"><surname>Fegert</surname><given-names>J.
+M.</given-names></string-name></person-group> (<year>2020</year>).
+<article-title>Child and adolescent mental health service provision and
+research during the Covid-19 pandemic: Challenges, opportunities, and a call
+for submissions</article-title>. <source>Child and Adolescent Psychiatry and
+Mental Health</source>, <volume>14</volume>(<issue>1</issue>),
+<fpage>19</fpage>.<pub-id pub-id-type="doi">10.1186/s13034-020-00324-8</pub-id><pub-id pub-id-type="pmid">32411296</pub-id><pub-id pub-id-type="pmcid">PMC7213544</pub-id></mixed-citation></ref><ref id="jsab075-B50"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name name-style="western"><surname>Yu</surname><given-names>L.</given-names></string-name><string-name name-style="western"><surname>Buysse</surname><given-names>D.
+J.</given-names></string-name><string-name name-style="western"><surname>Germain</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Moul</surname><given-names>D.
+E.</given-names></string-name><string-name name-style="western"><surname>Stover</surname><given-names>A.</given-names></string-name><string-name name-style="western"><surname>Dodds</surname><given-names>N.
+E.</given-names></string-name><string-name name-style="western"><surname>Johnston</surname><given-names>K.
+L.</given-names></string-name>, <string-name name-style="western"><surname>Pilkonis</surname><given-names>P.
+A.</given-names></string-name></person-group> (<year>2012</year>).
+<article-title>Development of short forms from the PROMIS<sup>TM</sup> sleep
+disturbance and sleep-related impairment item banks</article-title>.
+<source>Behavioral Sleep Medicine</source>,
+<volume>10</volume>(<issue>1</issue>),
+<fpage>6</fpage>&#8211;<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1080/15402002.2012.636266</pub-id><pub-id pub-id-type="pmcid">PMC3261577</pub-id><pub-id pub-id-type="pmid">22250775</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

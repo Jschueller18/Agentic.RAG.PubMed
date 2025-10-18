@@ -12,6 +12,7 @@ Features:
 import os
 import json
 import time
+import re
 from pathlib import Path
 from typing import List, Dict, Set
 from Bio import Entrez
@@ -71,6 +72,7 @@ class TargetedResearchDownloader:
         if qdrant_client is not None:
             self.qdrant_client = qdrant_client
         else:
+            import qdrant_client
             self.qdrant_client = qdrant_client.QdrantClient(path=vector_db_path)
         
         print(f"📚 Targeted Research Downloader initialized")
@@ -93,12 +95,16 @@ class TargetedResearchDownloader:
                 "last_updated": time.strftime("%Y-%m-%d %H:%M:%S")
             }, f, indent=2)
     
-    def fill_knowledge_gaps(self, gap_queries: List[str], max_papers_per_gap: int = 5) -> Dict:
+    def fill_knowledge_gaps(self, 
+                           semantic_queries: List[str] = None, 
+                           pmc_queries: List[str] = None,
+                           max_papers_per_gap: int = 5) -> Dict:
         """
-        Download papers to fill specific knowledge gaps
+        Download papers to fill specific knowledge gaps using separate query types
         
         Args:
-            gap_queries: List of specific research queries from AI reflection
+            semantic_queries: Specific queries for vector database search
+            pmc_queries: Broad queries for external PMC search (pre-optimized)
             max_papers_per_gap: Max new papers to download per query
             
         Returns:
@@ -116,26 +122,66 @@ class TargetedResearchDownloader:
             "chunks_added": 0
         }
         
-        for i, query in enumerate(gap_queries, 1):
-            print(f"\n📋 Gap {i}/{len(gap_queries)}: {query}")
+        # Handle backward compatibility (single query list)
+        if semantic_queries is None and pmc_queries is None:
+            print("   ⚠️  No queries provided")
+            return stats
+        
+        # If only one type provided, use it for both
+        if semantic_queries is None:
+            semantic_queries = pmc_queries
+        if pmc_queries is None:
+            pmc_queries = semantic_queries
+        
+        # Process each gap (match semantic and PMC queries by index)
+        num_gaps = max(len(semantic_queries), len(pmc_queries))
+        
+        for i in range(num_gaps):
+            semantic_query = semantic_queries[i] if i < len(semantic_queries) else semantic_queries[0]
+            pmc_query = pmc_queries[i] if i < len(pmc_queries) else pmc_queries[0]
+            
+            print(f"\n📋 Gap {i+1}/{num_gaps}")
+            print(f"   🔍 Semantic: {semantic_query[:60]}...")
+            print(f"   🌐 PMC: {pmc_query[:60]}...")
             print("-" * 80)
             
-            # Search PMC
-            pmcids = self._search_pmc(query, max_results=max_papers_per_gap * 2)
-            stats["papers_found"] += len(pmcids)
-            
-            # Filter out duplicates
-            new_pmcids = [pid for pid in pmcids if pid not in self.downloaded_pmcids]
-            duplicates = len(pmcids) - len(new_pmcids)
+            # Use hybrid search with separate queries
+            hybrid_results = self.search_hybrid(
+                semantic_query=semantic_query,
+                pmc_query=pmc_query,
+                pmc_max_results=max_papers_per_gap, 
+                semantic_max_results=max_papers_per_gap
+            )
+
+            # PMC papers (external)
+            pmc_papers = hybrid_results['pmc_papers']
+            all_pmc_count = len(pmc_papers)
+
+            # Semantic papers (from existing database)
+            semantic_papers = hybrid_results['semantic_papers']
+            semantic_count = len(semantic_papers)
+
+            # Filter PMC papers for duplicates and limit to max_papers_per_gap
+            new_pmcids = [pid for pid in pmc_papers if pid not in self.downloaded_pmcids][:max_papers_per_gap]
+            duplicates = all_pmc_count - len(new_pmcids)
+            processed_pmc_count = len(new_pmcids)
+
+            # Update stats
+            stats["papers_found"] += all_pmc_count + semantic_count
             stats["papers_skipped_duplicate"] += duplicates
-            
-            print(f"   Found: {len(pmcids)} papers ({duplicates} duplicates)")
-            
-            # Download and process new papers
+
+            print(f"   📊 Found: {all_pmc_count} external + {semantic_count} database papers")
+            print(f"   📥 Processing: {processed_pmc_count} new external papers ({duplicates} duplicates skipped)")
+
+            # Download and process new PMC papers only
             if new_pmcids:
-                downloaded = self._download_and_process(new_pmcids[:max_papers_per_gap], query)
+                downloaded = self._download_and_process(new_pmcids, semantic_query)
                 stats["papers_downloaded"] += downloaded["papers"]
                 stats["chunks_added"] += downloaded["chunks"]
+
+            # For semantic papers, they're already in our database, so just mark them as "found"
+            if semantic_papers:
+                print(f"   ✅ {semantic_count} relevant papers already in database")
             
             stats["queries_processed"] += 1
             
@@ -158,30 +204,105 @@ class TargetedResearchDownloader:
         return stats
     
     def _search_pmc(self, query: str, max_results: int = 10) -> List[str]:
-        """Search PMC for papers matching query"""
+        """Search PMC for papers using pre-optimized query (no auto-broadening)"""
         try:
-            # Add filters for open access and relevance
-            search_query = f'{query} AND "open access"[filter]'
-            
-            # Search
+            print(f"   🌐 PMC search: {query[:80]}{'...' if len(query) > 80 else ''}")
+
+            # Search with the query as-is (should already be optimized)
             handle = Entrez.esearch(
                 db="pmc",
-                term=search_query,
-                retmax=max_results,
+                term=query,
+                retmax=max_results * 2,  # Get more results for filtering
                 sort="relevance"
             )
             results = Entrez.read(handle)
             handle.close()
-            
-            pmcids = [f"PMC{pid}" if not pid.startswith("PMC") else pid 
+
+            pmcids = [f"PMC{pid}" if not pid.startswith("PMC") else pid
                      for pid in results.get("IdList", [])]
-            
+
+            print(f"   📄 Found {len(pmcids)} external papers")
             return pmcids
-            
+
         except Exception as e:
-            print(f"   ❌ Search error: {e}")
+            print(f"   ❌ PMC search error: {e}")
             return []
-    
+
+    def search_semantic_database(self, query: str, top_k: int = 5) -> List[Dict]:
+        """Search existing vector database for semantically similar papers"""
+        try:
+            from sentence_transformers import SentenceTransformer
+
+            # Use the same embedding model as the vector store
+            embedder = SentenceTransformer("BAAI/bge-small-en-v1.5")
+
+            # Embed the query
+            query_embedding = embedder.encode(query).tolist()
+
+            # Search vector database
+            search_results = self.qdrant_client.search(
+                collection_name=self.collection_name,
+                query_vector=query_embedding,
+                limit=top_k * 2,  # Get more results for filtering
+                with_payload=True
+            )
+
+            # Filter and format results
+            papers = []
+            for result in search_results:
+                payload = result.payload
+                if payload and 'pmcid' in payload:
+                    papers.append({
+                        'pmc_id': payload['pmcid'],  # Note: database uses 'pmcid', not 'pmc_id'
+                        'title': payload.get('title', 'Unknown Title'),
+                        'abstract': payload.get('text', '')[:500] + '...' if payload.get('text') else '',  # Use 'text' field as abstract
+                        'score': result.score,
+                        'source': 'semantic_search'
+                    })
+
+            # Remove duplicates and return top results
+            seen_pmcids = set()
+            unique_papers = []
+            for paper in papers:
+                if paper['pmc_id'] not in seen_pmcids:
+                    seen_pmcids.add(paper['pmc_id'])
+                    unique_papers.append(paper)
+
+            return unique_papers[:top_k]
+
+        except Exception as e:
+            print(f"   ❌ Semantic search error: {e}")
+            return []
+
+    def search_hybrid(self, 
+                     semantic_query: str = None, 
+                     pmc_query: str = None,
+                     pmc_max_results: int = 5, 
+                     semantic_max_results: int = 5) -> Dict:
+        """Combine PMC search and semantic search using separate optimized queries"""
+        results = {
+            'pmc_papers': [],
+            'semantic_papers': [],
+            'total_found': 0
+        }
+
+        # PMC search (external papers) - use pre-optimized query
+        if pmc_query:
+            pmc_papers = self._search_pmc(pmc_query, pmc_max_results * 2)
+            if pmc_papers:
+                results['pmc_papers'] = pmc_papers
+
+        # Semantic search (existing database) - use specific query
+        if semantic_query:
+            print(f"   🧠 Database search: {semantic_query[:60]}...")
+            semantic_papers = self.search_semantic_database(semantic_query, semantic_max_results)
+            if semantic_papers:
+                print(f"   📚 Found {len(semantic_papers)} relevant papers in database")
+                results['semantic_papers'] = semantic_papers
+
+        results['total_found'] = len(results['pmc_papers']) + len(results['semantic_papers'])
+        return results
+
     def _download_and_process(self, pmcids: List[str], context_query: str) -> Dict:
         """Download XMLs and add to vector store"""
         papers_processed = 0
@@ -240,28 +361,30 @@ class TargetedResearchDownloader:
     def _create_chunks(self, parsed_paper: Dict, chunk_size: int = 1000) -> List[Dict]:
         """Create chunks from parsed paper"""
         chunks = []
-        
-        # Metadata
-        metadata = {
-            "title": parsed_paper.get("title", "Unknown"),
-            "journal": parsed_paper.get("journal", "Unknown"),
-            "year": parsed_paper.get("year", "Unknown"),
-            "pmcid": parsed_paper.get("pmcid", "Unknown"),
-            "authors": ", ".join(parsed_paper.get("authors", [])[:3])
-        }
-        
+
+        # Get metadata from the correct nested structure
+        metadata = parsed_paper.get('metadata', {})
+
         # Abstract as first chunk
-        if parsed_paper.get("abstract"):
-            chunks.append({
-                "text": f"Title: {metadata['title']}\n\nAbstract: {parsed_paper['abstract']}",
-                "metadata": {**metadata, "section": "Abstract"}
-            })
-        
+        if metadata.get("title"):
+            abstract_text = ""
+            # Look for abstract in sections
+            for section in parsed_paper.get('sections', []):
+                if hasattr(section, 'section_type') and section.section_type == 'abstract':
+                    abstract_text = section.content
+                    break
+
+            if abstract_text:
+                chunks.append({
+                    "text": f"Title: {metadata.get('title', 'Unknown')}\n\nAbstract: {abstract_text}",
+                    "metadata": {**metadata, "section": "Abstract"}
+                })
+
         # Sections
         for section in parsed_paper.get("sections", []):
-            title = section.get("title", "")
-            content = section.get("content", "")
-            
+            title = getattr(section, "title", "")
+            content = getattr(section, "content", "")
+
             if content:
                 # Split long sections
                 if len(content) > chunk_size:
