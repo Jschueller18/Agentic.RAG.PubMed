@@ -8,7 +8,7 @@ import asyncio
 from concurrent.futures import ThreadPoolExecutor
 from typing import Dict, List, Any
 from fastembed import TextEmbedding
-import qdrant_client
+from qdrant_client import QdrantClient
 from langchain_anthropic import ChatAnthropic
 
 
@@ -32,7 +32,7 @@ class ParallelEvaluator:
         if qdrant_client is not None:
             self.client = qdrant_client
         else:
-            self.client = qdrant_client.QdrantClient(path="./bestmove_vector_db")
+            self.client = QdrantClient(path="./bestmove_vector_db")
         self.collection_name = "bestmove_research"
         
         # Claude for reasoning
@@ -91,53 +91,143 @@ class ParallelEvaluator:
         }
     
     def _generate_queries(self, survey_data: Dict, recommendation: Dict) -> Dict[str, str]:
-        """Generate all evaluation queries"""
+        """
+        Generate RAG queries using scientific terminology
+        
+        Key principles:
+        - Use noun phrases, not questions (matches literature style)
+        - Use dose ranges, not exact numbers (finds more relevant studies)
+        - Use research terminology (sleep onset latency, not "trouble falling asleep")
+        - Use demographic terms as adjectives (adults, women, older adults)
+        """
         age = survey_data.get("age", 35)
         sex = survey_data.get("sex", "female")
         sleep_issues = survey_data.get("sleep_issues", [])
+        use_case = survey_data.get("use_case", "sleep")
         
-        mg = recommendation["magnesium"]
-        ca = recommendation["calcium"]
-        k = recommendation["potassium"]
-        na = recommendation["sodium"]
+        # Convert to research-friendly terms
+        age_group = "adults" if age < 65 else "older adults"
+        sex_term = "women" if sex == "female" else "men"
         
-        queries = {
-            # Mineral-specific queries
-            "magnesium_dose": f"Is {mg}mg magnesium optimal dose for sleep quality in {age} year old {sex}?",
-            "calcium_dose": f"Is {ca}mg calcium appropriate for bedtime sleep support?",
-            "potassium_dose": f"Does {k}mg potassium affect sleep quality and muscle relaxation?",
-            "sodium_dose": f"Should sodium be {na}mg for evening electrolyte support?",
+        # Get dose ranges instead of exact numbers
+        mg_range = self._get_dose_range(recommendation["magnesium"])
+        ca_range = self._get_dose_range(recommendation["calcium"])
+        k_range = self._get_dose_range(recommendation["potassium"])
+        
+        if use_case == "sleep":
+            sleep_term = self._map_sleep_issue_to_research_term(sleep_issues)
             
-            # Interaction queries
-            "mg_ca_ratio": f"What is optimal magnesium to calcium ratio for sleep? Current: {mg}mg Mg, {ca}mg Ca",
-            "k_na_balance": f"What is optimal potassium to sodium balance for nighttime? Current: {k}mg K, {na}mg Na",
+            queries = {
+                # Mineral-specific - phrased like RESULTS sections (past tense, effect language)
+                "magnesium_dose": f"magnesium {mg_range} supplementation improved reduced {sleep_term} {sex_term} {age_group} participants treatment significant",
+                
+                "calcium_dose": f"calcium {ca_range} evening bedtime improved sleep architecture quality {age_group} compared placebo",
+                
+                "potassium_dose": f"potassium {k_range} improved reduced muscle relaxation nocturnal cramps {age_group} sleep quality significant",
+                
+                "sodium_dose": f"sodium intake restriction evening improved reduced water retention sleep quality participants",
+                
+                # Interaction queries - mechanism and effects language
+                "mg_ca_ratio": f"magnesium calcium ratio GABA neurotransmitter production sleep improvements optimal dose",
+                
+                "k_na_balance": f"potassium sodium balance electrolyte ratio cellular function sleep effects",
+                
+                # Demographic - effectiveness language
+                "demographic": f"{sex_term} {age_group} {sleep_term} supplementation improved sleep dose response effect significant",
+                
+                # Condition-specific - outcomes and comparisons
+                "sleep_type": f"participants {sleep_term} magnesium calcium improved compared placebo treatment effect dose response"
+            }
             
-            # Demographic query
-            "demographic": f"Optimal electrolyte doses for sleep in {age} year old {sex} with {', '.join(sleep_issues) if sleep_issues else 'general sleep support'}",
+        elif use_case == "active":
+            queries = {
+                # Results-focused language for athletic performance
+                "magnesium_dose": f"athletes magnesium {mg_range} improved exercise performance recovery muscle function cramping reduced significant",
+                
+                "calcium_dose": f"calcium {ca_range} athletes bone health stress fracture prevention training improved compared",
+                
+                "potassium_dose": f"potassium {k_range} improved exercise performance reduced muscle cramping fatigue athletes sweat loss",
+                
+                "sodium_dose": f"sodium replacement improved hydration performance athletes sweat loss exercise compared placebo significant",
+                
+                "mg_ca_ratio": f"magnesium calcium ratio athletes muscle function contraction relaxation performance improved optimal",
+                
+                "k_na_balance": f"potassium sodium ratio improved hydration performance athletes electrolyte balance exercise effect",
+                
+                "demographic": f"athletes {sex_term} {age_group} electrolyte supplementation improved performance endurance recovery significant",
+                
+                "performance_type": f"athletes training electrolyte replacement improved performance recovery hydration dose effect significant"
+            }
             
-            # Condition-specific query
-            "sleep_type": self._generate_sleep_query(sleep_issues, sex, age)
-        }
+        else:  # daily
+            queries = {
+                # Results-focused language for daily wellness
+                "magnesium_dose": f"magnesium {mg_range} daily supplementation improved cardiovascular health stress reduction {age_group} significant effect",
+                
+                "calcium_dose": f"calcium {ca_range} daily supplementation improved bone density osteoporosis prevention {age_group} {sex_term} compared",
+                
+                "potassium_dose": f"potassium {k_range} daily supplementation reduced blood pressure cardiovascular health {age_group} significant improvement",
+                
+                "sodium_dose": f"sodium intake reduction daily improved blood pressure health {age_group} compared participants",
+                
+                "mg_ca_ratio": f"magnesium calcium ratio supplementation improved bone health mineral balance {age_group} optimal effect",
+                
+                "k_na_balance": f"potassium sodium ratio improved blood pressure cardiovascular health participants dietary balance effect",
+                
+                "demographic": f"{age_group} {sex_term} daily supplementation improved health outcomes wellness prevention significant effect",
+                
+                "wellness_type": f"adults daily supplementation improved health markers wellness prevention {age_group} dose response significant"
+            }
         
         return queries
     
-    def _generate_sleep_query(self, sleep_issues: List[str], sex: str, age: int) -> str:
-        """Generate sleep-type specific query"""
-        if not sleep_issues:
-            return f"General electrolyte support for sleep quality in {age} year old {sex}"
+    def _get_dose_range(self, dose: int) -> str:
+        """
+        Convert specific dose to research-friendly range
         
-        # Map sleep issues to research queries
-        issue_map = {
-            "trouble falling asleep": "sleep onset latency reduction",
-            "frequent nighttime waking": "sleep maintenance and reducing wake episodes",
-            "early morning waking": "preventing early awakening",
-            "restless sleep": "improving sleep quality and reducing movement"
+        Research papers rarely use exact doses - they use ranges.
+        This helps find relevant studies even if exact dose not studied.
+        """
+        # Define ranges that match common research protocols
+        if dose <= 150:
+            return "100-200mg"
+        elif dose <= 250:
+            return "200-300mg"
+        elif dose <= 350:
+            return "300-400mg"
+        elif dose <= 450:
+            return "400-500mg"
+        elif dose <= 600:
+            return "500-600mg"
+        else:
+            return "500-700mg"
+    
+    def _map_sleep_issue_to_research_term(self, sleep_issues: List[str]) -> str:
+        """
+        Map user-friendly sleep issues to research terminology
+        
+        Users say: "trouble falling asleep"
+        Papers say: "sleep onset latency" or "insomnia"
+        """
+        if not sleep_issues:
+            return "sleep quality improvement"
+        
+        # Research terminology mapping
+        research_terms = {
+            "trouble_falling_asleep": "sleep onset latency insomnia",
+            "trouble falling asleep": "sleep onset latency insomnia",
+            "frequent_waking": "sleep maintenance wake after sleep onset",
+            "frequent_nighttime_waking": "sleep maintenance wake after sleep onset",
+            "frequent nighttime waking": "sleep maintenance wake after sleep onset",
+            "early_waking": "early morning awakening sleep duration",
+            "early_morning_waking": "early morning awakening sleep duration",
+            "early morning waking": "early morning awakening sleep duration",
+            "restless_sleep": "sleep quality restless leg syndrome periodic limb movement",
+            "restless sleep": "sleep quality restless leg syndrome periodic limb movement"
         }
         
-        primary_issue = sleep_issues[0].lower() if sleep_issues else "general sleep"
-        research_term = issue_map.get(primary_issue, "sleep quality improvement")
-        
-        return f"Magnesium and calcium doses for {research_term} in {sex} adults age {age}"
+        primary_issue = sleep_issues[0].lower().replace(" ", "_") if sleep_issues else ""
+        return research_terms.get(primary_issue, "sleep quality improvement")
     
     def _run_parallel_queries(self, queries: Dict[str, str]) -> Dict[str, List[Dict]]:
         """Run all queries in parallel using thread pool"""
@@ -205,8 +295,8 @@ class ParallelEvaluator:
             # Combine research
             context = self._format_research_context(mineral_research + demographic_research[:2])
             
-            # Ask Claude to grade
-            prompt = f"""You are an expert nutritionist evaluating an electrolyte formulation.
+            # Ask Claude to grade - be OPINIONATED and PRECISE
+            prompt = f"""You are an expert nutritionist evaluating the OPTIMAL {mineral.upper()} DOSE (not other minerals - ONLY {mineral}).
 
 Customer Profile:
 - Age: {survey_data.get('age')}
@@ -214,21 +304,33 @@ Customer Profile:
 - Sleep Issues: {', '.join(survey_data.get('sleep_issues', ['none']))}
 - Current {mineral} intake: {survey_data.get(f'{mineral}_intake', 'unknown')}mg/day
 
-Recommended Dose: {dose}mg {mineral}
+Recommended {mineral.upper()} Dose: {dose}mg
 
 Research Context:
 {context}
 
-Grade this {mineral} dose from 0-100 based on:
-1. Safety (is it within safe limits?)
-2. Efficacy (will it help their sleep issues?)
-3. Research backing (does research support this dose?)
-4. Individual fit (right for their age/sex/needs?)
+Your task: Estimate the PRECISE optimal {mineral} dose for THIS person. Don't settle for "acceptable" - push for exactness.
+
+Think like dose-response curves:
+- If research shows 300mg improved X%, and 400mg improved Y%, what maximizes benefit?
+- For this age/sex/condition, where on the curve should they be?
+- Make your best estimate even if uncertain - we aggregate many estimates for accuracy.
+
+Grade 0-100 based on how close {dose}mg is to YOUR estimated optimal {mineral} dose:
+- 100 = {dose}mg IS optimal
+- 90-99 = Very close, small adjustment helps
+- 80-89 = Good but meaningfully suboptimal
+- 70-79 = Acceptable but clear room for improvement
+- <70 = Significantly off optimal
+
+Be opinionated and specific. If you think 420mg {mineral} is better than {dose}mg {mineral}, say exactly that.
+
+CRITICAL: Your suggestion must specify {mineral} ONLY. Don't mention other minerals.
 
 Respond in this exact format:
 SCORE: [0-100]
-FEEDBACK: [2-3 sentences explaining the score]
-SUGGESTION: [specific dose adjustment if needed, or "No change needed"]"""
+FEEDBACK: [Why this score? What's your optimal {mineral} dose?]
+SUGGESTION: [e.g., "Increase to 420mg" or "Reduce to 375mg" or "Keep at {dose}mg"]"""
 
             try:
                 response = self.llm.invoke(prompt)

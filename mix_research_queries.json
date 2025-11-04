@@ -1,0 +1,97 @@
+{
+  "description": "Research queries for each mix optimization use case. Used to bootstrap knowledge base with relevant papers.",
+  
+  "sleep": {
+    "description": "Research queries for optimizing sleep support formulation",
+    "semantic_queries": [
+      "magnesium glycinate 300-500mg sleep onset latency randomized controlled trial",
+      "calcium citrate bedtime supplementation sleep architecture quality studies",
+      "potassium supplementation muscle relaxation sleep quality adults",
+      "magnesium calcium ratio GABA production sleep optimization",
+      "electrolyte balance circadian rhythm melatonin production",
+      "magnesium glycinate blood brain barrier sleep neurotransmitter",
+      "calcium citrate evening supplementation REM sleep deep sleep",
+      "sodium restriction bedtime water retention sleep quality",
+      "potassium citrate restless leg syndrome nocturnal muscle cramps"
+    ],
+    "pmc_queries": [
+      "magnesium supplementation AND sleep quality AND adults",
+      "calcium supplementation AND sleep architecture AND timing",
+      "electrolyte balance AND circadian rhythm AND sleep",
+      "magnesium calcium ratio AND GABA AND sleep",
+      "potassium supplementation AND sleep quality",
+      "electrolyte timing AND bedtime AND sleep onset",
+      "magnesium forms AND sleep AND bioavailability",
+      "mineral supplementation AND insomnia AND clinical trial"
+    ]
+  },
+  
+  "active": {
+    "description": "Research queries for optimizing active/performance formulation",
+    "semantic_queries": [
+      "electrolyte replacement exercise performance sweat loss athletes",
+      "sodium potassium ratio endurance training hydration performance",
+      "magnesium supplementation muscle recovery exercise induced damage",
+      "calcium citrate bone health weight training resistance exercise",
+      "potassium depletion exercise performance muscle fatigue cramping",
+      "sodium citrate pre-exercise hydration performance enhancement",
+      "magnesium ATP production exercise performance recovery",
+      "electrolyte balance exercise heat stress sweat rate",
+      "calcium magnesium ratio muscle contraction relaxation athletes"
+    ],
+    "pmc_queries": [
+      "electrolyte supplementation AND exercise performance AND recovery",
+      "sodium potassium replacement AND athletes AND sweat loss",
+      "magnesium supplementation AND muscle recovery AND exercise",
+      "calcium supplementation AND bone health AND athletes",
+      "electrolyte timing AND exercise performance",
+      "hydration AND electrolyte balance AND endurance",
+      "magnesium AND ATP AND exercise performance",
+      "mineral supplementation AND athletic performance AND randomized trial"
+    ]
+  },
+  
+  "daily": {
+    "description": "Research queries for optimizing daily wellness formulation",
+    "semantic_queries": [
+      "daily electrolyte supplementation general wellness healthy adults",
+      "magnesium calcium balance maintenance dose prevention",
+      "baseline electrolyte needs sedentary moderate activity population",
+      "preventive mineral supplementation health outcomes cardiovascular",
+      "magnesium deficiency modern diet supplementation needs",
+      "calcium citrate daily supplementation bone health prevention",
+      "potassium supplementation blood pressure cardiovascular health",
+      "electrolyte balance cellular function daily maintenance",
+      "mineral supplementation stress support energy metabolism"
+    ],
+    "pmc_queries": [
+      "daily mineral supplementation AND general health AND adults",
+      "magnesium supplementation AND cardiovascular health AND prevention",
+      "calcium supplementation AND bone health AND maintenance",
+      "potassium supplementation AND blood pressure AND adults",
+      "electrolyte balance AND wellness AND healthy adults",
+      "preventive supplementation AND minerals AND health outcomes",
+      "magnesium deficiency AND supplementation AND adults",
+      "mineral intake AND optimal health AND recommendations"
+    ]
+  },
+  
+  "common": {
+    "description": "Cross-cutting research queries relevant to all mixes",
+    "semantic_queries": [
+      "magnesium calcium potassium sodium interactions absorption",
+      "mineral form bioavailability citrate glycinate comparison",
+      "electrolyte ratio optimization health outcomes",
+      "mineral supplementation safety upper limits toxicity",
+      "magnesium glycinate vs other forms absorption tolerability"
+    ],
+    "pmc_queries": [
+      "mineral interactions AND absorption AND supplementation",
+      "electrolyte ratios AND health outcomes",
+      "mineral form AND bioavailability AND comparison",
+      "mineral supplementation AND safety AND upper limits"
+    ]
+  }
+}
+
+

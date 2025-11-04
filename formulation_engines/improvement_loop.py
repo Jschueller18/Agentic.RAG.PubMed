@@ -51,9 +51,19 @@ class ImprovementLoop:
         # Load shared vector database client
         import qdrant_client
         vector_db_path = "./bestmove_vector_db"
+        print("   Loading vector database... (this may take 20-30 seconds for large databases)")
         self.qdrant_client = qdrant_client.QdrantClient(path=vector_db_path)
+        
+        # Get collection info to show user
+        try:
+            collection_info = self.qdrant_client.get_collection("bestmove_research")
+            point_count = collection_info.points_count
+            print(f"   ✅ Loaded {point_count:,} research chunks")
+        except:
+            print("   ✅ Vector database loaded")
 
         # Load evaluator (pass shared client)
+        print("Initializing Parallel Evaluator...")
         self.evaluator = ParallelEvaluator(qdrant_client=self.qdrant_client)
 
         # Load reasoning reflector

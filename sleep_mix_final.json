@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "use_case": "sleep",
+  "last_updated": "2025-10-29",
+  "description": "Optimized for sleep onset, maintenance, and quality",
+  "formulation": {
+    "magnesium": 406,
+    "calcium": 227,
+    "potassium": 262,
+    "sodium": 180
+  },
+  "forms": {
+    "magnesium": "glycinate",
+    "calcium": "citrate",
+    "potassium": "citrate",
+    "sodium": "citrate"
+  },
+  "ratios": {
+    "mg_ca": 1.79,
+    "k_na": 1.46
+  },
+  "adjustable_params": [
+    "formulation.magnesium",
+    "formulation.calcium",
+    "formulation.potassium",
+    "formulation.sodium"
+  ],
+  "research_support": [],
+  "training_history": {
+    "iterations": 2,
+    "best_score": 87,
+    "avg_score": 84.66666666666667
+  }
+}

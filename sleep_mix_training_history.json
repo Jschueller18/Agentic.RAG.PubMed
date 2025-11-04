@@ -1,0 +1,19 @@
+{
+  "iterations": [
+    1
+  ],
+  "avg_scores": [
+    85.0
+  ],
+  "best_scores": [
+    85.0
+  ],
+  "formulations": [
+    {
+      "magnesium": 400,
+      "calcium": 200,
+      "potassium": 250,
+      "sodium": 150
+    }
+  ]
+}
