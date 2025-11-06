@@ -71,6 +71,8 @@ class ReasoningReflector:
         # Prompt for reflection
         prompt = f"""You are a metacognitive AI analyzing an electrolyte formulation recommendation.
 
+## IMPORTANT: RAG stands for "Retrieval-Augmented Generation" - a technique where we search a research database (retrieval) and use those findings to inform AI reasoning (augmented generation). When you see "RAG Evaluation" or "RAG queries", it refers to this database search process, NOT a red-amber-green rating system.
+
 ## CONTEXT:
 {context}
 
@@ -82,7 +84,7 @@ Rate 0-100 based on research quality, consistency, and specificity.
 Format: CONFIDENCE SCORE: [number]
 
 ### KEY REASONING (2-3 sentences max)
-Summarize why this recommendation was made.
+Summarize why this recommendation was made based on the Retrieval-Augmented Generation (RAG) evaluation of research papers.
 
 ### KNOWLEDGE GAPS - SEMANTIC (max 5 items)
 List SPECIFIC knowledge gaps for semantic vector database search. These should be detailed and precise.
@@ -145,12 +147,15 @@ Be concise and actionable. Focus on what research would directly improve this sp
 - Medications: {', '.join(test_case.get('medications', ['none']))}
 
 ### BASELINE RECOMMENDATION (Before RAG Evaluation):
+Note: RAG = Retrieval-Augmented Generation - searching research database for relevant studies
+
 - Magnesium: {baseline_rec['magnesium']}mg ({baseline_rec.get('forms', {}).get('magnesium', 'unknown form')})
 - Calcium: {baseline_rec['calcium']}mg ({baseline_rec.get('forms', {}).get('calcium', 'unknown form')})
 - Potassium: {baseline_rec['potassium']}mg ({baseline_rec.get('forms', {}).get('potassium', 'unknown form')})
 - Sodium: {baseline_rec['sodium']}mg ({baseline_rec.get('forms', {}).get('sodium', 'unknown form')})
 
-### RAG EVALUATION RESULTS:
+### RAG EVALUATION RESULTS (Retrieval-Augmented Generation):
+We searched the research database for relevant studies and evaluated the recommendation against those findings.
 
 """
         

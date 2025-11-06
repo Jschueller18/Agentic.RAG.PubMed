@@ -435,6 +435,7 @@ class TargetedResearchDownloader:
                     payload={
                         **chunk["metadata"],
                         "text": chunk["text"],
+                        "pmcid": pmcid,  # Add PMCID to payload for deduplication
                         "source": "targeted_download",
                         "context_query": context_query  # Track why we downloaded this
                     }

@@ -444,3 +444,80 @@ Issues: No papers found for this query
 - Commission targeted research if gap is critical
 
 ------------------------------------------------------------
+
+
+## Research Gaps Requiring Manual Attention - 2025-11-05T13:32:07.495826
+================================================================================
+
+### Query: magnesium glycinate 420mg sleep onset latency RCT women age 25-35
+Issues: No papers found for this query
+**Recommended Actions:**
+- Manual literature search in academic databases
+- Contact domain experts for insights
+- Commission targeted research if gap is critical
+
+------------------------------------------------------------
+### Query: calcium citrate 500mg sleep quality RCT women age 25-35
+Issues: No papers found for this query
+**Recommended Actions:**
+- Manual literature search in academic databases
+- Contact domain experts for insights
+- Commission targeted research if gap is critical
+
+------------------------------------------------------------
+### Query: potassium citrate 350mg sleep quality RCT women age 25-35
+Issues: No papers found for this query
+**Recommended Actions:**
+- Manual literature search in academic databases
+- Contact domain experts for insights
+- Commission targeted research if gap is critical
+
+------------------------------------------------------------
+### Query: magnesium glycinate 420mg sleep quality RCT older adults age 40-50
+Issues: No papers found for this query
+**Recommended Actions:**
+- Manual literature search in academic databases
+- Contact domain experts for insights
+- Commission targeted research if gap is critical
+
+------------------------------------------------------------
+### Query: calcium citrate 330mg sleep duration RCT middle-aged adults
+Issues: No papers found for this query
+**Recommended Actions:**
+- Manual literature search in academic databases
+- Contact domain experts for insights
+- Commission targeted research if gap is critical
+
+------------------------------------------------------------
+### Query: potassium citrate 375mg sleep architecture older adults
+Issues: No papers found for this query
+**Recommended Actions:**
+- Manual literature search in academic databases
+- Contact domain experts for insights
+- Commission targeted research if gap is critical
+
+------------------------------------------------------------
+### Query: magnesium glycinate 300-400mg sleep onset latency RCT women age 60-70
+Issues: No papers found for this query
+**Recommended Actions:**
+- Manual literature search in academic databases
+- Contact domain experts for insights
+- Commission targeted research if gap is critical
+
+------------------------------------------------------------
+### Query: calcium citrate 350-400mg sleep quality RCT older adults
+Issues: No papers found for this query
+**Recommended Actions:**
+- Manual literature search in academic databases
+- Contact domain experts for insights
+- Commission targeted research if gap is critical
+
+------------------------------------------------------------
+### Query: potassium citrate 350-400mg sleep architecture RCT hypertension
+Issues: No papers found for this query
+**Recommended Actions:**
+- Manual literature search in academic databases
+- Contact domain experts for insights
+- Commission targeted research if gap is critical
+
+------------------------------------------------------------

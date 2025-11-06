@@ -258,25 +258,49 @@ class ParallelEvaluator:
         # Generate embedding
         query_embedding = list(self.embedding_model.embed([query]))[0]
         
-        # Search vector store
+        # Search vector store - request more results to allow for deduplication
         search_results = self.client.query_points(
             collection_name=self.collection_name,
             query=query_embedding.tolist(),
-            limit=top_k
+            limit=top_k * 3  # Get more results to allow deduplication
         ).points
         
-        # Format results
+        # Format results and deduplicate by PMCID (or title for Unknown PMCIDs)
         formatted = []
+        seen_pmcids = set()
+        seen_titles = set()  # Fallback for "Unknown" PMCIDs
+        
         for result in search_results:
             payload = result.payload
+            
+            # Extract PMCID - check multiple possible fields
+            pmcid = payload.get("pmcid") or payload.get("pmc_id") or "Unknown"
+            title = payload.get("title", "Unknown")
+            
+            # Deduplicate: if we have a PMCID, use it; otherwise use title
+            if pmcid != "Unknown":
+                if pmcid in seen_pmcids:
+                    continue  # Skip duplicate paper
+                seen_pmcids.add(pmcid)
+            else:
+                # For "Unknown" PMCIDs, use title + journal as fallback dedup key
+                title_key = f"{title}_{payload.get('journal', '')}"
+                if title_key in seen_titles:
+                    continue  # Skip duplicate paper (same title + journal)
+                seen_titles.add(title_key)
+            
             formatted.append({
-                "title": payload.get("title", "Unknown"),
+                "title": title,
                 "text": payload.get("text", "")[:1000],  # First 1000 chars
-                "pmcid": payload.get("pmcid", "Unknown"),
+                "pmcid": pmcid,
                 "score": result.score,
                 "journal": payload.get("journal", "Unknown"),
                 "year": payload.get("year", "Unknown")
             })
+            
+            # Stop when we have enough unique results
+            if len(formatted) >= top_k:
+                break
         
         return formatted
     
